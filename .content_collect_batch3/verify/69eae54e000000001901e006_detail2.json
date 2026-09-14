@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"N1F1d96OBoR7jqxE4W1cFgXJnDe\">视频解析</title><h1 id=\"doxcnFBbwIdgBPsYlZzWCmsuUNe\">视频解析</h1><ul><li id=\"doxcnwF2JH0IaQqN1E9UTOiMv6c\"><b>原视频：</b><a href=\"https://www.xiaohongshu.com/discovery/item/69eae54e000000001901e006?source=webshare&amp;xhsshare=pc_web&amp;xsec_token=ABfwomOFfN4Yqkzw-4A19DnuZjdtSvkIJgYbMk7Yr4hWU=&amp;xsec_source=pc_share\">打开小红书原视频</a></li><li id=\"doxcniNZAQ5lT6Na3iTDlnIZZjb\"><b>时长：</b>86 秒</li><li id=\"doxcnRwLp1tT16al1ErKgzG5Pgb\"><b>画面比例：</b>720 × 1280，竖屏</li><li id=\"doxcngGX7SgarGNNjxxAOjzGMzb\"><b>可核验素材：</b>页面元数据、原文正文、封面图；本次未取得完整语音转写，因此不编造逐字稿。</li></ul><h2 id=\"doxcnAKJ8Dd2kA0FfnDN5NHYB5d\">封面</h2><img id=\"doxcnH45tDnJ2osfXZS9zIbumfb\" name=\"01.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.388888\" src=\"G1vvbJ6fRo50vZxDlpccMWX2nid\" width=\"1080\"/><h2 id=\"doxcnyuIek2bX95H8icJ4zuxwtf\">内容结构分析</h2><p id=\"doxcn2TvmgXwnX4WeicvMJUECIg\">原文先用“补剂吃错等于白补”制造损失感，再连续抛出活性叶酸、钙、镁和锌等具体知识点，结尾转向DHA问题，形成“强冲突开场—密集知识点—下一个疑问”的口播结构。</p><h2 id=\"doxcnUVxsexjoqENtvhCDUPxl5c\">标题与开头</h2><p id=\"doxcnqWCQhSE4UMUlW5i30d8Zah\">标题把“吃错”和“白补”直接连接，以新手妈妈为明确人群，并用“牢记这几点”承诺可执行答案。封面继续使用“DHA是智商税？”和“90%孕妈不知道”强化冲突与好奇。</p><h2 id=\"doxcnVOBUhd7LykXmdOeCNkYqEc\">画面与复刻适配性</h2><p id=\"doxcnRpLuulSHphhVzk89GbZNpf\">封面为真人口播画面叠加大号文字和论文背景，适合研究视频标题、口播钩子和信息密度；真人出镜本身不作为普通AI图文模板。若后续制作同类视频，应重新核查每条补剂信息，不能直接复制原笔记中的确定性说法。</p>",
+      "document_id": "N1F1d96OBoR7jqxE4W1cFgXJnDe",
+      "revision_id": 5
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

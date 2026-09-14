@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": false,
+        "node_token": "POgZwMr55iIiOMkTt0fc2OsQntc",
+        "node_type": "origin",
+        "obj_token": "JTvjdOfO4oEp3rxZWlecUteznFe",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "搜索关键词"
+      },
+      {
+        "has_child": false,
+        "node_token": "Ru75wZQF2ikAPgkIfBnciilNnng",
+        "node_type": "origin",
+        "obj_token": "Wj6LdgWNOoy5IDxAIvMclAPonhg",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "02_内容素材入库检查报告"
+      },
+      {
+        "has_child": true,
+        "node_token": "W72WwpH9oin27Bk7SXDc8WCCnSc",
+        "node_type": "origin",
+        "obj_token": "YgH1dAT3PoScL7xLHDqcOh6wntf",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "A类 视频"
+      },
+      {
+        "has_child": true,
+        "node_token": "XfRKwgtcciVIq8klDjScgUxIndQ",
+        "node_type": "origin",
+        "obj_token": "OBkPdR3pWo2i3PxwG3tcoD6Anlb",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "B类 图文"
+      },
+      {
+        "has_child": false,
+        "node_token": "ZhZ1wvj9XiQCVMkJQI6c7mVVnJb",
+        "node_type": "origin",
+        "obj_token": "V8izdnhrgoAXHyxuaHKcZOdwnSe",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "C类 长文"
+      },
+      {
+        "has_child": false,
+        "node_token": "Y4Mbw9EIMikAazkNQSpcmUFrn4b",
+        "node_type": "origin",
+        "obj_token": "FJrddAM1Do714axexgkcdbMkn6b",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "写作技巧｜爆款钩子与标题设计"
+      },
+      {
+        "has_child": false,
+        "node_token": "I7NywY7CiieoJBkStExcCJAmnDg",
+        "node_type": "origin",
+        "obj_token": "EkJEdz3Jhole4dxKUDGcVTGenvg",
+        "obj_type": "docx",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "文章类型分类总览"
+      },
+      {
+        "has_child": false,
+        "node_token": "PPRdwqPNPipZzAk0c0AconHXnkg",
+        "node_type": "origin",
+        "obj_token": "Z3ejsUyJBhDrJytp42Sc332QnEe",
+        "obj_type": "sheet",
+        "parent_node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "space_id": "7327179071221170179",
+        "title": "已发布笔记数据"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 8
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

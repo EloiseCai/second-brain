@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"OGnhdd3ZsobV8XxsrA2ckuKqnQd\">笔记图片</title><h1 id=\"doxcniJMbxJOOrUwU1Eo2FHAqgb\">笔记图片</h1><table id=\"doxcndKQLgZTHkL8UZEjCMP6Srh\"><colgroup><col width=\"158\"/><col width=\"328\"/><col width=\"114\"/></colgroup><thead><tr><th vertical-align=\"top\"><p id=\"doxcnm6E6tAJ27khBqZPtV8mmMd\">图片序号</p></th><th vertical-align=\"top\"><p id=\"doxcnfrCVi7aXPoiAe4O51QybQd\">单图分析</p></th><th vertical-align=\"top\"><p id=\"doxcnGg2o66OegsCVObqyCgq3bc\">图片</p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p id=\"doxcn8nlbh5FCSFNMqgwAr1yLNZ\">第1张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnoi6YpxEweWRnoPa5SP6f2f\">内容任务：手写孕期补剂早中晚时间表。画面可读重点包括“早上 / Date. / 你你孕期日常补充 / 叶酸”。版式特点：一页为手写活页本时间表，一页为补剂瓶实拍，依靠真实物品而非标准化信息图完成表达。</p></td><td vertical-align=\"top\"><img id=\"doxcnzowjXroM0JvaMsWFflAfWy\" name=\"01.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"TjivbVzb9okkFQxXtsFcYhBmnod\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnlXd1SmVra8w3ErtU1puozg\">第2张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnWAOdPVUjF7JahG89fGCWFh\">内容任务：补剂瓶、胶囊与桌面摆拍。画面可读重点包括“CONTENT / \"智慧剛包容 / biosand / DHA”。版式特点：一页为手写活页本时间表，一页为补剂瓶实拍，依靠真实物品而非标准化信息图完成表达。</p></td><td vertical-align=\"top\"><img id=\"doxcnd7XlgnUyJ0aITs8ePG1Mud\" name=\"02.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"Z5rxbP6nqoFdphxaIGRcAOrGnRc\" width=\"1080\"/></td></tr></tbody></table><h2 id=\"doxcnmkyHjWlGuFdci5uvMpIPoc\">整组图片分析</h2><p id=\"doxcnDaE7Z9zFFcfKxwBNxOirzf\">仅2页，先给手写服用时间，再展示实际补剂产品；信息闭环短，但强依赖个人手账和商品实拍，图片模板适配性低。</p>",
+      "document_id": "OGnhdd3ZsobV8XxsrA2ckuKqnQd",
+      "revision_id": 3
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"JPL5d6l11oED3WxF4aQcynUHnzg\">笔记图片</title><h1 id=\"doxcn7q27ofXMHISS4SnxDJ77Ph\">笔记图片</h1><table id=\"doxcniymRNlzC5AsAaFGYAWokQe\"><colgroup><col width=\"158\"/><col width=\"328\"/><col width=\"114\"/></colgroup><tbody><tr><td vertical-align=\"top\"><p id=\"doxcnhMn5XJOM4Xnd6YjZ1FtjJe\">图片序号</p></td><td vertical-align=\"top\"><p id=\"doxcnhyd7DcizZepFo8UE1QglKh\">单图分析</p></td><td vertical-align=\"top\"><p id=\"doxcnSQwAYc7rvUcQPQyhda1a4b\">图片</p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnPoZg9OOsJdFGt1aona06kg\">第1张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnKosCU0a3IrSMCDP9GgT9fe\">封面把6种豆浆的食材碗与成品杯做成六宫格，中央标题“孕期常喝这6种豆浆”，用数量感和丰富食材吸引保存。</p></td><td vertical-align=\"top\"><p id=\"doxcn4bP8NYp4OLK02xURpNvVY7\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn4mkUSbjscZozrsYCuOyjud\">第2张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnNppjjrHIboQscZ5t0Z4Hhc\">红豆山药燕麦豆浆：俯拍食材和成品饮品，旁边用白色手写体列配方，并标注作者主张的用途。</p></td><td vertical-align=\"top\"><p id=\"doxcnR9CFrnO6wgitQz7TuBm8wg\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnjquSRXKB9zvEfmMbDnXDUg\">第3张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnOD7Lk30h23uu7Lp6Z2bOoc\">黑豆红枣豆浆：黑豆、红枣与饮品形成三角构图，延续米色桌面和极简配方文字。</p></td><td vertical-align=\"top\"><p id=\"doxcnpuFXfQznj5iO1bTVi7jwWO\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnGDCjhp0tOdNlxZkZQnugiV\">第4张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnt87fWk3ixgMyemx6Y7vQ4b\">南瓜小米豆浆：用南瓜和小米的暖黄色强化口味联想，作者在画面上标注血糖与排便相关主张。</p></td><td vertical-align=\"top\"><p id=\"doxcn86E8QrSOr9c9LWVbHUxJIe\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnchpoulNdSUG6FWHJv2is2d\">第5张图片</p></td><td vertical-align=\"top\"><p id=\"doxcninhcFaxiD46XNGIsO6SgCh\">花生红豆豆浆：食材碗与成品杯左右平衡，配方和作者的补铁、生长相关主张置于留白区。</p></td><td vertical-align=\"top\"><p id=\"doxcnZe3MXwzbf9ApSkToFg9kfe\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnE3NBcRahvUiRFWnYuiQqAh\">第6张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnPJIqFq5xPHf7oqZ9BiqCXd\">紫薯银耳豆浆：紫色饮品成为视觉焦点，银耳和紫薯原料围绕摆放，文字保持统一位置。</p></td><td vertical-align=\"top\"><p id=\"doxcnXDbs8rcJyApjCiLDtwcjEe\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnzh46JHJGfKsk7TuhSPfztf\">第7张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnhA9Yf0hAsw1wHeUwLcmJZc\">绿豆百合莲子豆浆：浅绿色饮品与原料收束整组，作者以舒缓类文案作为卖点；分析仅记录其表达，不代表采纳健康结论。</p></td><td vertical-align=\"top\"><p id=\"doxcnf9u1b0Kar0wq0rQepN3hSc\"></p></td></tr></tbody></table><h2 id=\"doxcnxLQ53lpN7brUvJzrTlWDQf\">整组图片分析</h2><p id=\"doxcnmRcbhAGIDD8dbGc3DlTzud\">整组采用“六宫格封面+单品一页”的饮品合集结构，真实食材和成品杯易于AI复刻。原图中的功效表述仅作为对标文案观察，不能直接转写为确定性健康结论。</p>",
+      "document_id": "JPL5d6l11oED3WxF4aQcynUHnzg",
+      "revision_id": 2
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

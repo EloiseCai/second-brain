@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品力增强"
+  short_description: "在小红书初稿后匹配产品卖点与真实截图，制作可复用的宣传图片并增强信任"
+  default_prompt: "使用 $product-amplify，为这篇初稿匹配妈妈善食的产品证据和宣传图片，并完成产品力增强。"

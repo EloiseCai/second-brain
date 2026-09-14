@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": false,
+        "node_token": "BRTEwtnUgi3HhCklcnRcSGtnnUd",
+        "node_type": "origin",
+        "obj_token": "MGNRd6QAyoTKWLxbdovcX9K4nYf",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "总览"
+      },
+      {
+        "has_child": true,
+        "node_token": "OtAFwN2GziO0eQkeUg3cNRe1ngb",
+        "node_type": "origin",
+        "obj_token": "FkAodGSTKoQvEPxYTdVclOSEnUd",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "00_账号背景"
+      },
+      {
+        "has_child": false,
+        "node_token": "RfJzw7Abli9yP6kiIy3cO8Y8n1b",
+        "node_type": "origin",
+        "obj_token": "X9JqdjUlIoaSatxFS4VcljsqnMh",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "01_对标账号"
+      },
+      {
+        "has_child": true,
+        "node_token": "PE89wnxewiLXBykHQIIcbhdEnO7",
+        "node_type": "origin",
+        "obj_token": "KxdEdM9igoJNn8xJYwocjchKnCg",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "02_内容素材"
+      },
+      {
+        "has_child": true,
+        "node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "node_type": "origin",
+        "obj_token": "GR3Yd74oroutMKx5IOtcJRZNnRf",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "03_内容规律"
+      },
+      {
+        "has_child": true,
+        "node_token": "CXgowoVr9iEvEnkyX3rc9g7ynUe",
+        "node_type": "origin",
+        "obj_token": "RyONd8euAo08mzxeMfgcLnuWnnh",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "04_选题库"
+      },
+      {
+        "has_child": true,
+        "node_token": "FJ18wHAfei75nWkDPLDcc9Jgn95",
+        "node_type": "origin",
+        "obj_token": "KOg8duv9jo6YCKxNK8xcL6BRn1c",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "05_内容草稿"
+      },
+      {
+        "has_child": true,
+        "node_token": "JZ5NwI1DFiXWK4kP0fPcNlQEnsc",
+        "node_type": "origin",
+        "obj_token": "WHDWdhFMcoloREx2sPac91Gvnzf",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "06_发布复盘"
+      },
+      {
+        "has_child": true,
+        "node_token": "FEdewBkkZidJdAkCqchcUSeynVc",
+        "node_type": "origin",
+        "obj_token": "CMVCdfTl0oomumxLsXycOBEen1f",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "07_产品衔接"
+      },
+      {
+        "has_child": false,
+        "node_token": "IJdkwi0aCiBRFCkyTBYcKYWUncf",
+        "node_type": "origin",
+        "obj_token": "Htd9dAD9QoqvHLxBbtjc5KCpnFc",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "小红书对标库"
+      },
+      {
+        "has_child": false,
+        "node_token": "IqY5wWqg6iPzLMkLBECcDHlYnee",
+        "node_type": "origin",
+        "obj_token": "OZ6KdsakLoTLS7x0sHKcwgs4nof",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "PregnaBite-小红书帖子分析"
+      },
+      {
+        "has_child": false,
+        "node_token": "PoVjw253RiVGSWkWiJxcLHUBnyc",
+        "node_type": "origin",
+        "obj_token": "OgwudYVtCoyCgSxHMUzcLPACnsd",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "PregnaBite-ASO/自然流"
+      },
+      {
+        "has_child": false,
+        "node_token": "V1lgwIYyIiUDwVk0a4KcZ1Pfnfh",
+        "node_type": "origin",
+        "obj_token": "JGHcbgSsXa7aCFsWakPc4aFknsR",
+        "obj_type": "bitable",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "PregnaBite-版本控制"
+      },
+      {
+        "has_child": false,
+        "node_token": "AvytwDGApiGvPdkFF9jczKt6nFf",
+        "node_type": "origin",
+        "obj_token": "D0pBbi4CLasYRyscNEQc0BJ0nff",
+        "obj_type": "bitable",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "妈妈善食｜远程内容配置中心"
+      },
+      {
+        "has_child": false,
+        "node_token": "TphZwrVIximJQykJxY1czmPZnag",
+        "node_type": "origin",
+        "obj_token": "NyIyb7cVGaLcuzsFRPsc1oxCnFb",
+        "obj_type": "bitable",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "PregnaBite Analytics"
+      },
+      {
+        "has_child": true,
+        "node_token": "StCtwdrxoiC98Hkhw17cwcsZnec",
+        "node_type": "origin",
+        "obj_token": "H4pvdnrGhoi8gbxlVLactmqOnCc",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "Codex文档产出"
+      },
+      {
+        "has_child": true,
+        "node_token": "V3IYwbJQ2iE55Qknoy1ccgJsnZc",
+        "node_type": "origin",
+        "obj_token": "DCy2dtUZgooVg5xG5WDcCQZqnkc",
+        "obj_type": "docx",
+        "parent_node_token": "CpBUwab9uigoGtkJQEGcHAB6nZc",
+        "space_id": "7327179071221170179",
+        "title": "宣传站相关"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 17
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

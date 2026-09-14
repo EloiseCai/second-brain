@@ -1,0 +1,1 @@
+{"audience":"妈妈善食内容创作者及后续调用图库的助手","reader_task":"找到并复用已确认的产品图，保留来源和版本以便优化","genre_contract":"router.knowledge","adapter":null,"presentation_mode":"normal","visual_plan":{"reason":"图卡需要直接预览，并附检索与维护信息","blocks":[{"type":"img","min_count":1,"purpose":"预览已确认的拍照记餐产品图"}]}}

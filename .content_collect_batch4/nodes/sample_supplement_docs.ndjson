@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>笔记信息</title><h1>笔记信息</h1><ul><li>笔记ID：69bbb3cb0000000023013d91</li><li>笔记链接：https://www.xiaohongshu.com/explore/69bbb3cb0000000023013d91</li><li>笔记类型：图文</li><li>笔记标题：别瞎补！孕期营养黄金服用时间表💯</li><li>笔记正文：补剂吃了半年没感觉？姐妹，可能是方法错了！🤯<br/>不是所有孕期补剂都叫“有效补充”！<br/>✨三大核心，避开无效补充：看成分→看复配→看服用时间<br/>💡牢记两点，效果翻倍：铁锈味/重糖款慎重；错开服用不打架；避开茶、咖啡至少2小时，吸收不打折。</li><li>Hashtag：无</li><li>博主ID：未采集</li><li>博主昵称：laugh</li><li>点赞量：861</li><li>收藏量：未采集</li><li>评论量：未采集</li><li>分享量：未采集</li><li>发布时间：03-19</li><li>更新时间：未采集</li><li>图片数量：2</li><li>采集时间：2026-09-11</li><li>笔记封面链接：https://feishu.cn/file/BPQEbvJt4oviuvxjnGWcIWkpnac</li><li>笔记图片文档：https://my.feishu.cn/wiki/Dgi4wW6aaigxdCkPcN3cBpNjnMe</li></ul><h2>笔记图片链接</h2><ol><li seq=\"1\" seq-marker=\"1. \"><a href=\"https://feishu.cn/file/BPQEbvJt4oviuvxjnGWcIWkpnac\">第1张图片</a></li><li seq-marker=\"2. \"><a href=\"https://feishu.cn/file/PX0YbLS9XoNWu9x94b0cMWh1njc\">第2张图片</a></li></ol>",
+      "document_id": "VT20dIxVNoanSvxErGscawQ2npd",
+      "revision_id": 12
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>笔记图片</title><h1>笔记图片</h1><table><colgroup><col/><col/><col/></colgroup><thead><tr><th vertical-align=\"top\"><p>图片序号</p></th><th vertical-align=\"top\"><p>单图分析</p></th><th vertical-align=\"top\"><p>图片</p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>第1张图片</p></td><td vertical-align=\"top\"><p>时间轴型封面兼内容页：用四个醒目的时间数字做纵向主线，每个时间点配补剂名称和短说明，一张图即可交付核心答案。</p></td><td vertical-align=\"top\"><img name=\"B09-01.webp\" mime=\"image/jpeg\" scale=\"0.944444\" src=\"O9kKbzNjLov3xHxYrCOcUDqbnlg\"/></td></tr><tr><td vertical-align=\"top\"><p>第2张图片</p></td><td vertical-align=\"top\"><p>产品清单补充页：沿用黄白黑配色，把四类补剂做成统一横向条目；每行结构一致，便于快速对照产品、频率与作者主张。</p></td><td vertical-align=\"top\"><img name=\"B09-02.webp\" mime=\"image/jpeg\" scale=\"0.944444\" src=\"Cau5boCgpoXY9vxMuS6cfbrenTf\"/></td></tr></tbody></table><h2>整组图片分析</h2><p>两张图共同完成“先给服用时间，再给产品与频次”的信息闭环。整体以高对比黄色边框、黑底标签和大号数字建立强识别，文字量集中且结构重复，适合少页数、高信息密度的时间表或对照表内容。</p>",
+      "document_id": "KoApdBAp3oztnCxzGjIcqV1En2d",
+      "revision_id": 8
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

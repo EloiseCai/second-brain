@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": false,
+        "node_token": "BTYDw5OLxi3vRCkVoPic3Wzcnzc",
+        "node_type": "origin",
+        "obj_token": "BKc1dp3VHoaoekxueslcvFY2noh",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "规律提取汇总"
+      },
+      {
+        "has_child": false,
+        "node_token": "ANyZw1dcIi7JFskTw1kcx9sRngh",
+        "node_type": "origin",
+        "obj_token": "FDJXdhEIno9UU5xILvYciJYDndg",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "标题规律"
+      },
+      {
+        "has_child": false,
+        "node_token": "NWyNwvGuxijPmkkhdiwcBTZQn1g",
+        "node_type": "origin",
+        "obj_token": "Kh3kdB1yGoCpLDxBrlecIeHynuc",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "正文结构规律"
+      },
+      {
+        "has_child": false,
+        "node_token": "VZ9owl6ApiuGUgkwwqRcqDctn0g",
+        "node_type": "origin",
+        "obj_token": "Ap28dvFlToDOZHxG3rmcVJ7wnqg",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "开头规律"
+      },
+      {
+        "has_child": false,
+        "node_token": "UlHmwz0ALiNn4QkBGnDcr8vQnwd",
+        "node_type": "origin",
+        "obj_token": "RxXkdHdETop3WvxSu4tcs4pCngf",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "视频脚本规律"
+      },
+      {
+        "has_child": false,
+        "node_token": "QNPVw7pgkirN0Oktz0mcDr5Nnhd",
+        "node_type": "origin",
+        "obj_token": "KYa2ddZNboe5gkxkD6QcfKJYnwc",
+        "obj_type": "docx",
+        "parent_node_token": "YbvMwpxrWiNOpSkxjO0cMLlvnwc",
+        "space_id": "7327179071221170179",
+        "title": "图片规律"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 6
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

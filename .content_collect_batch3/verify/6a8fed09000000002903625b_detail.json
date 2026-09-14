@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"ODIwdEZODo6dk5xx9F5cHLdUnPc\">笔记图片</title><h1 id=\"doxcnD6Rh20Sq4Mwn66L7aNDNHf\">笔记图片</h1><table id=\"doxcnet85ug9zFGlV2GYuBSqnni\"><colgroup><col width=\"158\"/><col width=\"328\"/><col width=\"114\"/></colgroup><tbody><tr><td vertical-align=\"top\"><p id=\"doxcngy7VvkLHc2mltvAGo4Psfa\">图片序号</p></td><td vertical-align=\"top\"><p id=\"doxcneIV84lw4sa7FOFxBS8A53d\">单图分析</p></td><td vertical-align=\"top\"><p id=\"doxcnMB2H3k7u8mdjPtVu02zF1d\">图片</p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn6WbbPxQQI1jRdQz8PhmdFb\">第1张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnLy9TUspY6bEO8HLlFYpBw9\">周一补铁餐单：粉白卡片按早餐、午餐、加餐、晚餐和时间顺序排列，标出食物与克数，并用食物图片辅助识别。</p></td><td vertical-align=\"top\"><p id=\"doxcneyRmWqCNhl8YroJPkz9Oed\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnrZJyoDCsfWpnX4gXwr1vpb\">第2张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnPtcFJaLJICLhIsSUqZpRJf\">周二补铁餐单：沿用同一模板，把四餐内容、时间和份量平整展开，便于横向比较每日安排。</p></td><td vertical-align=\"top\"><p id=\"doxcnDcJ0vsbgICHQjskDvmaFNb\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnPgGAk47D2vTOpxp2X2WuDe\">第3张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnZvEWOlTeY2xriXuaqYNBof\">周三补铁餐单：继续使用时间轴式餐次结构，重点食材与主食、蔬菜组合均有对应图片。</p></td><td vertical-align=\"top\"><p id=\"doxcnmevNRZdLUIGomeyF1QMRXd\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn1rb9S6aA8ymFNHRl3fsJQh\">第4张图片</p></td><td vertical-align=\"top\"><p id=\"doxcn1ohmWsn96YE1GBh1nZr9Ze\">周四补铁餐单：粉色标题条区分日期，正文区以餐次标签+具体食物+份量构成，信息密度与前页一致。</p></td><td vertical-align=\"top\"><p id=\"doxcnmbLC3lVs9C8NI80CTpKJ9e\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn0spJOdXhe5mDHcSAcqGFYb\">第5张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnja9XFYHJry7QAhsu4BrEFe\">周五补铁餐单：统一卡片内呈现全天四餐，用小图承载食物视觉、文字负责明确数量。</p></td><td vertical-align=\"top\"><p id=\"doxcn8114xAfqMOHVbvzxB9Gb8b\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn872xXzukePNQe0UcDDS8Be\">第6张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnhSIVVJdJMtunC0febZrNTc\">周六补铁餐单：周末仍保持相同餐次节奏和版式，读者可直接按时间查看。</p></td><td vertical-align=\"top\"><p id=\"doxcnefa9LUswy7ajOoEahoOgbg\"></p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnDYlOp3N2AttRQjSIsvqWOf\">第7张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnBAOMj74Hur5PVjrhpA214e\">周日补铁餐单：最后一页完成7天闭环，结构、字号、配色与前6页完全统一，适合整组收藏。</p></td><td vertical-align=\"top\"><p id=\"doxcnGjjgXF0W7rO9OblGPB8jaf\"></p></td></tr></tbody></table><h2 id=\"doxcnptswu5eLIcwdjRt7ZPDEwe\">整组图片分析</h2><p id=\"doxcnHAMEMdrfCIL7YzpHKVUprd\">7页严格对应周一至周日，模板统一、餐次完整、份量明确。适合一周餐单和连续计划型内容，生成前应先准备足够的7天信息量，避免出现页面空或重复。</p>",
+      "document_id": "ODIwdEZODo6dk5xx9F5cHLdUnPc",
+      "revision_id": 2
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

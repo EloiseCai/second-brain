@@ -1,0 +1,76 @@
+使用说明：每次生成时上传 01_阶段速查.png 作为整组视觉参考图。它只决定浅粉纸张、手绘边框、字体、插画处理和留白；每页的模块结构严格按下列“版式来源”执行。
+
+02｜早期和中期：上下双模块
+版式来源：02_内容素材/B类 图文/B类-孕期补剂安排/B类53_孕期营养补剂大总结｜千万别乱吃/笔记图片/第3张。
+
+Use case: infographic-diagram
+Asset type: Xiaohongshu pregnancy nutrition carousel, page 02.
+Input image: the uploaded image is the selected cover and is a visual-language reference only. Preserve its pale pink paper texture, cobalt-blue hand-drawn outline, coral-pink accents, black handwritten Chinese type, small doodles, simple food illustrations and generous white space.
+Primary request: create a portrait 3:4 infographic, 1086×1448 pixels, opaque PNG. Use the actual layout logic of the source image B类53/笔记图片/第3张: two large vertically stacked nutrient modules, not four equal cards. Each module has a small colored nutrient tag, a short bold subheading, 2–3 short lines of text on the left, a simple illustration on the right, and a small colored band or note area at the bottom. The upper and lower modules have visibly different heights and clear separation. Keep the selected cover’s pink visual language; do not reproduce B53’s blue palette.
+Text (verbatim):
+Main title: 早期和中期，先把这两件事记清🧾
+Upper tag: 孕早期
+Upper heading: 叶酸每天先记清
+Upper body line 1: 发现怀孕就开始补充
+Upper body line 2: 复合维生素里的叶酸先看清
+Upper body line 3: 每份含量和每天吃几粒分开记
+Lower tag: 孕中期
+Lower heading: 钙和铁放进一天
+Lower body line 1: 早餐喝奶，加餐吃酸奶
+Lower body line 2: 午餐安排瘦肉和蔬菜
+Lower body line 3: 钙片和复合维生素里的成分一起记
+Upper illustration: one unbranded pale-pink supplement bottle, leafy greens and a small label card.
+Lower illustration: milk, yogurt, cooked brown beef, bell pepper and a small checklist.
+Constraints: all Chinese text must be exact, clear and readable. No extra text, logos, brands, QR codes, URLs, doctor, hospital, diagnosis, data chart, transparent pixels or photo person. Keep generous safety margins; do not crop, overlap or distort text.
+
+03｜孕晚期和 DHA：三个分项模块
+版式来源：02_内容素材/B类 图文/B类-孕期补剂安排/B类53_孕期营养补剂大总结｜千万别乱吃/笔记图片/第4张。
+
+Use case: infographic-diagram
+Asset type: Xiaohongshu pregnancy nutrition carousel, page 03.
+Input image: the uploaded image is the selected cover and is a visual-language reference only. Preserve its pale pink paper texture, cobalt-blue hand-drawn outline, coral-pink accents, black handwritten Chinese type, small doodles, simple food illustrations and generous white space.
+Primary request: create a portrait 3:4 infographic, 1086×1448 pixels, opaque PNG. Use the actual layout logic of source image B类53/笔记图片/第4张: three vertically stacked, unequal information modules, each with a colored category tag, a compact subheading, two short explanatory lines, and one related illustration at the right. The three modules must have their own boundaries and reading rhythm; do not turn them into four equal cards. Keep the selected cover’s pink visual language; do not reproduce B53’s blue palette.
+Text (verbatim):
+Main title: 孕晚期和DHA，这样继续吃🐟
+Module 1 tag: 孕晚期
+Module 1 heading: 奶、肉、鱼继续安排
+Module 1 body line 1: 早餐奶和正餐瘦肉照常留着
+Module 1 body line 2: 按日常餐次继续吃
+Module 2 tag: DHA
+Module 2 heading: 每周留出2～3份低汞鱼
+Module 2 body line 1: 一份大约113克
+Module 2 body line 2: 三文鱼、鳕鱼都做熟
+Module 3 tag: 换产品时
+Module 3 heading: 从成分表重新记起
+Module 3 body line 1: 每份含量和每天吃几粒
+Module 3 body line 2: 鱼油总重量和DHA含量分开看
+Module 1 illustration: milk cup, cooked beef and cooked fish on a plate.
+Module 2 illustration: cooked salmon, cooked cod, small plate and fork; no raw fish.
+Module 3 illustration: an unbranded bottle, ingredient label, magnifying glass and pencil.
+Constraints: all Chinese text must be exact, clear and readable. No extra text, logos, brands, QR codes, URLs, doctor, hospital, diagnosis, data chart, transparent pixels or photo person. Keep generous safety margins; do not crop, overlap or distort text.
+
+04｜瓶身成分：五步编号清单
+版式来源：02_内容素材/B类 图文/B类-孕周营养指南/B类38_准妈妈必存！分孕周营养补充对照表/笔记图片/第3张。
+
+Use case: infographic-diagram
+Asset type: Xiaohongshu pregnancy nutrition carousel, page 04.
+Input image: the uploaded image is the selected cover and is a visual-language reference only. Preserve its pale pink paper texture, cobalt-blue hand-drawn outline, coral-pink accents, black handwritten Chinese type, small doodles, simple food illustrations and generous white space.
+Primary request: create a portrait 3:4 infographic, 1086×1448 pixels, opaque PNG. Use the actual layout logic of source image B类38/笔记图片/第3张: five numbered modules in a vertical checklist, with a number marker, short title, compact explanation and a small related icon for each step. Keep the selected cover’s pink visual language while preserving this five-step structure.
+Text (verbatim):
+Main title: 瓶身成分，按这5步记下来✍️
+Step 1 title: 拿出全部瓶子
+Step 1 body: 复合维生素、叶酸、钙、铁、DHA
+Step 2 title: 看每份几粒
+Step 2 body: 每份含量和实际吃几粒分开记
+Step 3 title: 记每天实际几粒
+Step 3 body: 早晚各一次也写清
+Step 4 title: 先记4种成分
+Step 4 body: 叶酸、铁、钙、维D逐项写下
+Step 5 title: DHA单独看
+Step 5 body: 鱼油总重量和DHA含量分开看
+Bottom function strip title: 妈妈善食
+Bottom function strip body: 扫描瓶身管理补剂，记录每天吃的饭菜
+Small icons: unbranded bottles, a label, pencil, checklist, small fish and a simple phone outline. No QR code.
+Constraints: all Chinese text must be exact, clear and readable. No extra text, logos, brands, URLs, doctor, hospital, diagnosis, data chart, transparent pixels or photo person. Keep generous safety margins; do not crop, overlap or distort text.
+
+统一返工提示词：只校正指定的中文错字或漏字。保持本页原有的模块数、版式结构、文字位置、插画位置、颜色、边框、留白、尺寸和不透明背景，禁止添加、删除或改写其他内容。

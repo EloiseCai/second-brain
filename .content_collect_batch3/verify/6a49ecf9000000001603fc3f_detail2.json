@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"BW5Wdet1ioYrcLx5C0tc0v7Znvh\">笔记图片</title><h1 id=\"doxcne0BgtW5HEQA5NYF7VnvLte\">笔记图片</h1><table id=\"doxcnnOJnXgmO8xwBOlIp1gMddd\"><colgroup><col width=\"158\"/><col width=\"328\"/><col width=\"114\"/></colgroup><tbody><tr><td vertical-align=\"top\"><p id=\"doxcnDrQGuldQhHBiVsao3486Ub\">图片序号</p></td><td vertical-align=\"top\"><p id=\"doxcnimexdnkf9xWk8biKxnedRe\">单图分析</p></td><td vertical-align=\"top\"><p id=\"doxcnnfSgyewfmlgpg2rP56Flvn\">图片</p></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnwvNkl0NhM767mhXeKH9qmc\">第1张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnUtfbcvJmIU9U4WtMMU6Rrb\">粉色封面以大标题“准妈妈必存！分孕周营养补充对照表”为视觉中心，右侧放孕妇人物，左下嵌入后续表格缩略图，先交代内容价值与阅读对象。</p></td><td vertical-align=\"top\"><img id=\"doxcntgZAWkAe1EEWKNTRUhvCwg\" name=\"01.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"Cv8mbZ8tooG3XvxlHc1ctV6ync6\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnxef8FToj3WG9SpwEaqXaSe\">第2张图片</p></td><td vertical-align=\"top\"><p id=\"doxcn9QU54UyBFoXJ5uf7X5qhUh\">粉色长表按孕1月到孕10月逐行展开，三列分别呈现月份、重点营养和食物来源；以连续时间轴承载大量信息，方便按当前孕月快速定位。</p></td><td vertical-align=\"top\"><img id=\"doxcnmD7IufRAYcXNwJjnodP2Bf\" name=\"02.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"XIqhb7trfoas3vxyFvjcjOBanYe\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnHK3W4H2XJzmlQuV8goRi1c\">第3张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnWvKBXZaCewsd9FYiRYdORf\">“孕期如何长胎不长肉”卡片用5个编号模块列出进餐顺序、适量运动、加餐选择、少食多餐和高蛋白低卡食物，文字与食物小图标交替排列。</p></td><td vertical-align=\"top\"><img id=\"doxcnji06up2PzSDZfMkejJWVEh\" name=\"03.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"S5nUby4Ggo4fc1xhDkBcO76wnPe\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn71rIaNLH6o7WDdyJWNvjHD\">第4张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnkUlCBW8BrKDZ8qHvN2H7Df\">“孕期主要营养补充量”用4个独立色块说明DHA、铁、钙、叶酸，数字和单位放大突出，形成可截图保存的速查页。</p></td><td vertical-align=\"top\"><img id=\"doxcnSrSW0Shxe1umKlPvcDOlNf\" name=\"04.webp\" height=\"1440\" mime=\"image/webp\" scale=\"0.296296\" src=\"Cvsqbid7woyufXxjzFlcwqOPnXb\" width=\"1080\"/></td></tr></tbody></table><h2 id=\"doxcnMlnZtX7pkGIYhG1LBuBSbe\">整组图片分析</h2><p id=\"doxcnzEtAfviQuZSOzZ6fGjEHCd\">整组以“孕月时间轴+体重管理技巧+关键营养素速查”组成完整孕期指南。优势是信息覆盖广、粉色卡片风格统一；适合信息量较大的阶段型选题，不适合内容较少时硬套表格。</p>",
+      "document_id": "BW5Wdet1ioYrcLx5C0tc0v7Znvh",
+      "revision_id": 5
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"WLtydhdjOoxt8Ax3BkMcQyHknMd\">笔记图片</title><h1 id=\"doxcn4rCfO7Fj7P2nxPPg7YJmnd\">笔记图片</h1><table id=\"doxcnCGBiQVJIYuHeottadgbHWd\"><colgroup><col width=\"158\"/><col width=\"328\"/><col width=\"114\"/></colgroup><thead><tr><th vertical-align=\"top\"><p id=\"doxcnOQ4SY2RHGbHgEIW7mtzP0c\">图片序号</p></th><th vertical-align=\"top\"><p id=\"doxcnWO71ceQm5PkDyk9JPXMPdf\">单图分析</p></th><th vertical-align=\"top\"><p id=\"doxcnJdBdvoptQAjsFFwhtwZAIb\">图片</p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p id=\"doxcnGgu1tBj2Ng7iMZzVm5cMgg\">第1张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnywnQbzGNIwVZ6IHY3AKKeY\">内容任务：怀孕1—8周表格。画面可读重点包括“怀孕1-40周 / 1张表 全部讲清楚 / 孕周 / 妈妈”。版式特点：橙色描边表格贯穿整组，固定大标题下按孕周列妈妈变化、胎儿情况、营养和注意事项。</p></td><td vertical-align=\"top\"><img id=\"doxcneUBHgDgLCXvbXoTUzfaF1d\" name=\"01.webp\" height=\"1473\" mime=\"image/webp\" scale=\"0.296296\" src=\"N4pOb7AyZoCDpMxzs5jc60Dnn5t\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnp8XCk8ct5JE3cPht2Bldud\">第2张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnT7XH6TpQRQJ08QXc3F3ZKh\">内容任务：怀孕9—16周表格。画面可读重点包括“怀孕1-40周 / 1张表 全部讲清楚 / 孕周 / 妈妈”。版式特点：橙色描边表格贯穿整组，固定大标题下按孕周列妈妈变化、胎儿情况、营养和注意事项。</p></td><td vertical-align=\"top\"><img id=\"doxcnmupBIUVGtuO44YfhdMnqlh\" name=\"02.webp\" height=\"1467\" mime=\"image/webp\" scale=\"0.296296\" src=\"F6Irbat0Sozhs8xhh0ocZBN2noc\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnhiKJjkldakXGTTzCBT0cdf\">第3张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnaKc0tcXof3SzI8Dn0E4sUh\">内容任务：怀孕17—24周表格。画面可读重点包括“怀孕1-40周 / 1张表 全部讲清楚 / 孕周 / 妈妈”。版式特点：橙色描边表格贯穿整组，固定大标题下按孕周列妈妈变化、胎儿情况、营养和注意事项。</p></td><td vertical-align=\"top\"><img id=\"doxcnbj8XWmxsdDYmjOziSLrUwe\" name=\"03.webp\" height=\"1467\" mime=\"image/webp\" scale=\"0.296296\" src=\"AFDobcpSFogZg4xvU0Rcn6ANngd\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcn0quIYZvoXhVS9QZHIP7t0b\">第4张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnlgKNndjwdj94RPJJ9r0lqg\">内容任务：怀孕25—32周表格。画面可读重点包括“孕周 / 25-28周 / （孕7月） / 29-32周”。版式特点：橙色描边表格贯穿整组，固定大标题下按孕周列妈妈变化、胎儿情况、营养和注意事项。</p></td><td vertical-align=\"top\"><img id=\"doxcncLE9tOl610UWWoB01DueBh\" name=\"04.webp\" height=\"1467\" mime=\"image/webp\" scale=\"0.296296\" src=\"ZhTqb3eAxoZj9Ax5YF2cJgCunnf\" width=\"1080\"/></td></tr><tr><td vertical-align=\"top\"><p id=\"doxcnl2sg6WjOfd20xxxvvBo0ke\">第5张图片</p></td><td vertical-align=\"top\"><p id=\"doxcnaIdvVwzHWVxCTF3ajLEFzs\">内容任务：怀孕33—40周表格。画面可读重点包括“孕周 / 33-36周 / （孕9月） / 37-40周”。版式特点：橙色描边表格贯穿整组，固定大标题下按孕周列妈妈变化、胎儿情况、营养和注意事项。</p></td><td vertical-align=\"top\"><img id=\"doxcnQMxkAJulfTyurbGuyEgM9f\" name=\"05.webp\" height=\"1467\" mime=\"image/webp\" scale=\"0.296296\" src=\"VFPxbT4Qrotyf1xcWnFcyqglnWh\" width=\"1080\"/></td></tr></tbody></table><h2 id=\"doxcnIMWzPwzwj9Mz7hNcAbQUjd\">整组图片分析</h2><p id=\"doxcnLHjnT7wRT8KpNOM8ziQ8ie\">5张表严格按1—40周分段，列结构和橙色视觉完全统一；适合高信息密度孕周指南，前提是先准备足够且已核查的数据。</p>",
+      "document_id": "WLtydhdjOoxt8Ax3BkMcQyHknMd",
+      "revision_id": 3
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

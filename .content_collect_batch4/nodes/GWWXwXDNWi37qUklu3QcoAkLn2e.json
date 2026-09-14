@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": true,
+        "node_token": "O9EpwMaBxibWZGkiBNscZgWOnkd",
+        "node_type": "origin",
+        "obj_token": "OPKGdOghgoCNzVx3y39c1VWHnwe",
+        "obj_type": "docx",
+        "parent_node_token": "GWWXwXDNWi37qUklu3QcoAkLn2e",
+        "space_id": "7327179071221170179",
+        "title": "B类02_孕期一日6餐这样吃！营养够了，体重更好控_69f9ed7700000000220295d5"
+      },
+      {
+        "has_child": true,
+        "node_token": "VAwCwD0SFiGtM5kHCeacRA3snQc",
+        "node_type": "origin",
+        "obj_token": "SjtPd2iDnoqpalxDU4yc6Ufunkp",
+        "obj_type": "docx",
+        "parent_node_token": "GWWXwXDNWi37qUklu3QcoAkLn2e",
+        "space_id": "7327179071221170179",
+        "title": "B类10_怀孕怎么吃？找到了超好吃的蔬菜食谱🔥_6a1ab3850000000037035377"
+      },
+      {
+        "has_child": true,
+        "node_token": "Q80uwMlbAijqIZk16VBc6rpfnka",
+        "node_type": "origin",
+        "obj_token": "JERbdodlBouERGxk4nhcXZAxnLr",
+        "obj_type": "docx",
+        "parent_node_token": "GWWXwXDNWi37qUklu3QcoAkLn2e",
+        "space_id": "7327179071221170179",
+        "title": "B类11_低卡低脂蒸菜一锅出✅收藏安排起来_6a0d7be90000000007026495"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 3
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

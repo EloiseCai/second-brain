@@ -1,0 +1,6 @@
+interface:
+  display_name: "航海笔记助手"
+  short_description: "基于真实需求确定具体场景，完成小红书图文初稿与用户成稿复盘"
+  default_prompt: "Use $content-writer to write a Xiaohongshu note from a selected topic."
+policy:
+  allow_implicit_invocation: true

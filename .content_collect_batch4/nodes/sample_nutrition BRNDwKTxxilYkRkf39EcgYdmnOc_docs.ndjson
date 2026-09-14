@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>首页</title><blockquote><p>在首页你可以对空间进行说明，比如包含以下内容。</p></blockquote><h1>🎯  愿景和目标</h1><blockquote><p>这里你可以描述知识空间建设的目标和意义，有利于团队成员理解目标并朝着目标努力。</p></blockquote><h1>⛳️  知识空间简介</h1><blockquote><p>这里你可以介绍知识空间的主要内容和面向的成员群体。</p></blockquote><h1>⭐️  常用文档和链接</h1><blockquote><p>这里你可以将需要关注的文档链接粘贴在此处，方便成员快速访问。</p></blockquote><h1>💡  知识空间帮助</h1><blockquote><p>这里你可以添加知识库使用规范、操作流程、管理员联系方式等。</p></blockquote><p></p><h1>入库思考</h1><table><colgroup><col/><col/></colgroup><tbody><tr><td><h4>字段</h4></td><td><p></p></td></tr><tr><td><h4>主题</h4></td><td><p></p></td></tr><tr><td><h4>用途</h4></td><td><p></p></td></tr><tr><td><h4>边界（放）</h4></td><td><p></p></td></tr><tr><td><h4>边界（不放）</h4></td><td><p></p></td></tr></tbody></table>",
+      "document_id": "GiNFdLVXxoVM0YxVzm2c1aGBnG0",
+      "revision_id": 30
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>以前的工作文件</title>",
+      "document_id": "XQOzd0QFqoGViqxBBA0cYvVrnhf",
+      "revision_id": 3
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

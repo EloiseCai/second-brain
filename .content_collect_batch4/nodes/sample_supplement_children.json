@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": false,
+        "node_token": "TysuwzYpAivFCfkPHWicg7ELnPh",
+        "node_type": "origin",
+        "obj_token": "VT20dIxVNoanSvxErGscawQ2npd",
+        "obj_type": "docx",
+        "parent_node_token": "AxGEwGmyViPUvbkt3NtcTNSMn9b",
+        "space_id": "7327179071221170179",
+        "title": "笔记信息"
+      },
+      {
+        "has_child": false,
+        "node_token": "Dgi4wW6aaigxdCkPcN3cBpNjnMe",
+        "node_type": "origin",
+        "obj_token": "KoApdBAp3oztnCxzGjIcqV1En2d",
+        "obj_type": "docx",
+        "parent_node_token": "AxGEwGmyViPUvbkt3NtcTNSMn9b",
+        "space_id": "7327179071221170179",
+        "title": "笔记图片"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 2
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

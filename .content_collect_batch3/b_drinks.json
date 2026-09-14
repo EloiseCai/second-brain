@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": true,
+        "node_token": "SESSwW50UiaRM9k0U7icbLxXnZT",
+        "node_type": "origin",
+        "obj_token": "Unb2dQqTEojb8ZxNIevcf2yRnrJ",
+        "obj_type": "docx",
+        "parent_node_token": "S0BXwnANeiow5VkLyqWclHEgnrf",
+        "space_id": "7327179071221170179",
+        "title": "B类05_6款孕期养生豆浆 | 美容养颜好喝又营养✅_6a589cae000000000f03e9cd"
+      },
+      {
+        "has_child": true,
+        "node_token": "R0aJwMxAnieFGykxhrncQ5STn7c",
+        "node_type": "origin",
+        "obj_token": "W3erdTT8vo6mUjxXjZocn9NknWb",
+        "obj_type": "docx",
+        "parent_node_token": "S0BXwnANeiow5VkLyqWclHEgnrf",
+        "space_id": "7327179071221170179",
+        "title": "B类12_孕期补水攻略｜8杯高颜值风味水_69e2e28e0000000023026ecb"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 2
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": true,
+        "node_token": "R39xwuj05iddPTkDevIcMl6PnRf",
+        "node_type": "origin",
+        "obj_token": "BF04dcgjroLrFsxzRUtclIZ0nlh",
+        "obj_type": "docx",
+        "parent_node_token": "XY2owQZ4dil9Mtk7xy5cajnInyb",
+        "space_id": "7327179071221170179",
+        "title": "B类04_段涛👨🏻‍⚕️为什么怀孕前三个月要格外小心_6a2e83d4000000001603f65b"
+      },
+      {
+        "has_child": true,
+        "node_token": "WkuBwCsJkiql1Ekn9n8cDkrpnjd",
+        "node_type": "origin",
+        "obj_token": "Bz97db5eooTO6Jxz24RcnyHynid",
+        "obj_type": "docx",
+        "parent_node_token": "XY2owQZ4dil9Mtk7xy5cajnInyb",
+        "space_id": "7327179071221170179",
+        "title": "B类26_别再瞎吃了！孕早期饮食红黑榜_6a17f2af0000000036001d5b"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 2
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}
