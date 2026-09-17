@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Review"
+  short_description: "复盘已上线网站并创建飞书复盘文档"
+  default_prompt: "当我说“复盘”时，针对指定的已上线网站创建一次新的飞书复盘文档，并初始化数据复盘表。"
