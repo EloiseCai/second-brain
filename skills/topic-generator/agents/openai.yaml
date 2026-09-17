@@ -1,4 +1,4 @@
 interface:
   display_name: "航海选题助手"
-  short_description: "从账号定位与小红书内容素材生成并持续维护可执行候选选题"
-  default_prompt: "使用 $topic-generator 读取新素材并生成选题。"
+  short_description: "两轮调研高互动对标笔记，生成选题并规划文本方向"
+  default_prompt: "使用 $topic-generator 先筛选候选选题；我确认后，再拆解高互动对标笔记并给出文本方向。"
