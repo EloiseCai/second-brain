@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "new_blocks": [
+        {
+          "block_id": "doxcnyTX2E5x21dxz7yM5MyxLhc",
+          "block_token": "PsYLbv7EYoFefmxjrtzcH9b9nHh",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcnZ6EhUNnuMJ7UvsFNWppjsd",
+          "block_token": "DWlIbWofoohODSx9DmqcOOo4nbd",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcnQshRp3EgNGrpu3Vwf4IhVc",
+          "block_token": "DoqRbpgJmoL6akx5Z3TcH2yBnVh",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcn2rZYuYtke3fXIQqa6m0w5f",
+          "block_token": "ASSbbuYcIoIZ34xdlCfc3d1mnyc",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcnDMirX4L0NsLCkys2ESuUKf",
+          "block_token": "TqUVbZVnOoRgSVxWRK6cxizinIc",
+          "block_type": "image"
+        }
+      ],
+      "revision_id": 11,
+      "url": "https://my.feishu.cn/docx/YBXcdzvyooR2Drx6WZyc2blTnVQ"
+    },
+    "result": "success",
+    "warnings": []
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.88",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.88, run: lark-cli update"
+    }
+  }
+}
