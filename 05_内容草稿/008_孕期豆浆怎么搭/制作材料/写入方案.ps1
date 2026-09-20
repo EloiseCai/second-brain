@@ -1,0 +1,2 @@
+﻿lark-cli docs +update --doc VKB1dMwh8ou6APxpUDkcOKSDnbf --as user --command block_delete --block-id "doxcndztJ4anAATaPe9X1fg8pah,doxcnc29oqagrjxkJ9YxwcamrZg,doxcnWhUQHQZAyanPQu5Rk6J1Ee,doxcnbwm3RYVCzJXnXrxHkehCTc,doxcnwX6omFmac6NvEEPG98yxwg"
+lark-cli docs +update --doc VKB1dMwh8ou6APxpUDkcOKSDnbf --as user --command block_insert_after --block-id doxcnGCwpx9GQRvEXDgtPi01vkg --content "@05_内容草稿\008_孕期豆浆怎么搭\制作材料\008_制作方案.xml"

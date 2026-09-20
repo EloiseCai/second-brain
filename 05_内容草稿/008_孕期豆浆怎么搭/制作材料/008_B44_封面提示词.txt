@@ -1,0 +1,41 @@
+Generate one portrait Xiaohongshu recipe cover, exactly 1080x1440 (3:4), opaque RGB. Use attached B44_01 as exact design reference: ivory background, red Chinese calligraphic main heading, fine gold dividers, floral/leaf decorations at four corners, 2 columns x3 rows of six round-corner thin gold bordered cards, red circular numbering 01–06, red recipe headings, finished food at LEFT of each card and ingredient list at RIGHT under small beige "食材准备：" pill. Keep original scale, margins, lighting, object positions and typography hierarchy. DO NOT copy original lychee ingredients or recipes. Only replace content with the six soy drinks below. No extra text blocks, no calories, no health claims, no breakfast foods on this cover.
+Top main heading exactly: "6款孕期早餐豆浆".
+Match original vessel diversity: card01 white ribbed ceramic bowl (deeper version of original shallow plate to hold liquid), card02 white scalloped ceramic bowl, card03 tall clear straight drinking glass, card04 shorter clear glass, card05 clear round glass bowl, card06 white scalloped deeper ceramic bowl. Same positions and perspectives as source, do not homogenize into identical glasses. Show fully cooked smoothly blended drinks with natural fine grain texture; no raw beans or large uncooked ingredients floating, no ice or fruit garnishes. Pale oat-cream, soft corn yellow, creamy white yam, muted light purple-gray black rice, pumpkin golden yellow, sesame gray-brown distinguish the six. Realistic soft window light.
+Render the following EXACT text, no recipe omissions. In each card heading includes original red numbered badge:
+01 黄豆燕麦豆浆
+食材准备：
+• 干黄豆25g
+• 燕麦片10g
+• 水500mL
+02 玉米小米豆浆
+食材准备：
+• 干黄豆20g
+• 玉米粒40g
+• 小米5g
+• 水500mL
+03 山药莲子豆浆
+食材准备：
+• 干黄豆20g
+• 去皮山药40g
+• 干莲子5g
+• 大米5g
+• 水500mL
+04 花生黑米豆浆
+食材准备：
+• 干黄豆20g
+• 花生仁5g
+• 黑米10g
+• 水500mL
+05 南瓜腰果豆浆
+食材准备：
+• 干黄豆20g
+• 去皮南瓜40g
+• 原味腰果5g
+• 水500mL
+06 黑芝麻核桃豆浆
+食材准备：
+• 干黄豆20g
+• 黑芝麻3g
+• 核桃仁3g
+• 水500mL
+Preserve the reference's ingredient text sizes and spacing; fit long names in heading line. The 5 ingredient entries in card03 occupy the same space as original's 5 ingredient entries. No footer sentences, no cooking steps on cover, no extra subheading. All text clearly legible and accurately spelled. Do not use B05 glass-plus-raw-ingredient-plate composition. This cover shows one finished drink per card, not a second ingredient plate.
