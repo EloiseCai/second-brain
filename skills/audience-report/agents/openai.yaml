@@ -1,0 +1,4 @@
+interface:
+  display_name: "真实用户洞察报告"
+  short_description: "从可追溯的真实用户素材中整理具体痛点与受众洞察报告"
+  default_prompt: "使用 $audience-report，从已有真实用户素材中整理可追溯的痛点和受众洞察；不要凭空推测，并把每次报告保存到指定飞书 Wiki 父节点下的新文档中。"

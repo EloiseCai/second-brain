@@ -36,6 +36,7 @@
 
 ## 当前项目 Skills
 
+- `audience-report`：从真实用户素材库整理可追溯的痛点与受众洞察。
 - `content-collector`：筛选、采集和入库内容素材。
 - `content-writer`：调研确认后的内容初稿、图片与正文生产。
 - `pattern-extractor`：从素材中提取标题、开头、正文、图片和视频规律。
