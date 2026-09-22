@@ -1,0 +1,23 @@
+Use case: ads-marketing
+Asset type: 妈妈善食小红书产品承接图，3:4竖版
+Input image role: use the provided PA004 poster as a strict layout and brand-system reference. Preserve its warm cream background, soft peach/lavender glow, official purple mascot block on the left, deep navy Chinese sans-serif typography, large tilted phone on the right, violet #6A4EF5 / #7B61FF, pale lavender #EDE8FF, white rounded cards, leaf/heart accents, soft shadows and generous spacing. Create a NEW content variant; do not change into another visual style.
+Primary request: change the product message from taste preferences to one-day meal planning and balanced meal composition.
+Composition:
+- Keep the left mascot, “妈妈善食” brand name and the short lavender divider.
+- Replace the large left headline with two strong lines: “一日三餐” / “营养均衡”. Make all text fit fully within the left column, no clipping.
+- Keep one slightly clockwise tilted phone on the right.
+Phone interface:
+- Header remains “妈妈善食” with violet pill “AI 食谱”.
+- Replace preference card with a compact lavender summary card titled “今日搭配”, subtitle “早餐 · 午餐 · 晚餐”.
+- Section title “一日三餐”, subtitle “根据营养目标与饮食偏好搭配”.
+- Show exactly three simple stacked meal cards, each with one appetizing fully cooked Chinese home-meal photo and clear text:
+  1. label “早餐”, dish “牛奶燕麦水果杯”
+  2. label “午餐”, dish “彩椒牛肉糙米饭”
+  3. label “晚餐”, dish “菌菇鸡肉时蔬”
+- Use small colored meal labels: breakfast pale yellow, lunch pale coral, dinner pale green. Do not show calories, nutrient grams, scores or progress bars.
+- Bottom large violet button “生成今日食谱”.
+- Small bottom text “界面示意 · 菜品示例”.
+Exact visible text: only the strings specified above.
+Style: polished current 妈妈善食 mini-program visual system, warm, cheerful, clean, trustworthy, high-quality mobile product marketing.
+Constraints: preserve the original brand mascot appearance and purple/cream palette; one phone only; 3:4 portrait; all Chinese sharp and correct; food photos large enough to be understood; reader immediately sees a complete breakfast-lunch-dinner plan.
+Avoid: taste preference chips, “AI 已记住”, dark green, vintage paper, rough lettering, multiple phones, extra captions, arrows, numbered steps, QR codes, URLs, download prompts, medical effects, guaranteed nutrition outcomes, weight-loss or blood-sugar claims, authority badges, ratings, testimonials, watermarks.
