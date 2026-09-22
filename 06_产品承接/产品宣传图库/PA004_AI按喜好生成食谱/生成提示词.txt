@@ -1,0 +1,22 @@
++Use case: ads-marketing
+Asset type: 小红书产品承接图，3:4竖版
+Input images:
+- Image 1 is layout reference ONLY: borrow its composition of a left brand block plus one large tilted phone on the right. Do not borrow its green palette, rough type, CIVA logo, icons, paper collage style, or any of its product UI.
+- Image 2 is the official 妈妈善食 mascot/brand illustration. Preserve this recognizable purple rounded mascot, green leaves, cream background, coral heart, and friendly flat illustration language.
+- Image 3 and Image 4 are real 妈妈善食 mini-program UI references. Use their visual system: primary violet #6A4EF5 / #7B61FF, pale lavender #EDE8FF, warm cream #F9F3EA, white rounded cards, deep navy text, soft coral/yellow/green nutrient accents, large rounded corners, gentle shadows, airy spacing, and the same clean Chinese sans-serif hierarchy. Do not copy status bars, network overlays, user data, nutrition numbers, or page-specific health claims.
+Primary request: create a polished 妈妈善食 product promotional poster that uses OUR brand system and only borrows the composition from Image 1.
+Composition:
+- Background is warm cream #F9F3EA with a very subtle peach-to-lavender glow and a few soft translucent leaf shapes from our home-screen visual language. No paper texture, no dark green, no vintage print.
+- Left 34%: the exact purple mascot style from Image 2 inside a soft lavender rounded square, brand name below “妈妈善食”, then a large clean bold headline in deep navy on three short lines: “记住喜好” / “AI 生成” / “合口味的食谱”. Use clean app-style Chinese sans-serif, not rough hand lettering.
+- Right 66%: one large phone UI, slightly clockwise tilted like Image 1, but rendered with the genuine 妈妈善食 purple/cream/white component system. White phone/card with violet outline or glow, rounded 32px-style corners and soft shadow.
+Phone interface:
+- Top: “妈妈善食” and a violet pill “AI 食谱”.
+- First white rounded card title “AI 已记住”; below, three lavender preference chips with tiny line icons and checkmarks: “清淡”“酸鲜”“蒜香”.
+- Section title “为你推荐”, subtitle “根据已记录的口味偏好”.
+- Two large recipe cards using appetizing natural Chinese home-cooking photos: “番茄牛肉滑蛋” with tag “酸鲜”; “蒜香菌菇鸡肉” with tag “蒜香”.
+- Bottom large brand-violet rounded button “生成食谱”.
+- Small text inside bottom safe area “界面示意 · 菜品示例”.
+Exact visible text: only the strings specified above. Chinese must be correct and sharp.
+Style: refined current 妈妈善食 mini-program design, cheerful, warm, trustworthy, pregnancy nutrition companion feel, high-polish mobile product marketing.
+Constraints: 3:4 portrait; large readable text; one phone only; food is fully cooked; preserve safe margins; user instantly understands preferences lead to AI recipe recommendations. Conceptual UI clearly labeled.
+Avoid: any CIVA content, green-dominant palette, vintage paper, rough distressed lettering, doodle chef, generic mother silhouette logo, multiple phones, extra captions, arrows, numbered steps, QR codes, URLs, download prompts, nutrition metrics, calories, weight-loss/control-sugar claims, medical claims, authority badges, ratings, testimonials, watermarks.
