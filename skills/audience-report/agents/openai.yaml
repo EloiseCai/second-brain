@@ -1,4 +1,4 @@
 interface:
   display_name: "真实用户洞察报告"
-  short_description: "从可追溯的真实用户素材中整理具体痛点与受众洞察报告"
-  default_prompt: "使用 $audience-report，从已有真实用户素材中整理可追溯的痛点和受众洞察；不要凭空推测，并持续更新固定的飞书《用户洞察》文档。"
+  short_description: "六维组合发现问题，经多渠道调研与内容反馈维护飞书问题和方案库"
+  default_prompt: "使用 $audience-report，先列举六维选项并组合问题假设，经搜索等多渠道补证，比较解决方案，将问题、人工审核与复盘反馈统一维护到固定飞书《用户洞察》。"

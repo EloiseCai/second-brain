@@ -1,4 +1,4 @@
 interface:
   display_name: "航海规律提取助手"
-  short_description: "从小红书内容素材提取并持续维护标题、开头与正文结构规律"
+  short_description: "提取内容与封面点击手法，结合实际CTR持续维护本账号验证反馈"
   default_prompt: "使用 $pattern-extractor 更新新增小红书素材的内容规律。"
