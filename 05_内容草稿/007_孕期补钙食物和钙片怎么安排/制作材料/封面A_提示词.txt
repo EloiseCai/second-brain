@@ -1,9 +1,0 @@
-Use case: infographic-diagram. Create one finished Xiaohongshu portrait cover, opaque white background with pink outer frame, exact 3:4 portrait size 1080x1440. Reference image is B57 image3 from Feishu J87idikM6o2uMMxJKHacmxIInug, “孕妈妈如何补钙”. This is a content adaptation of that calcium explainer for a one-day pregnancy meal plan. Preserve its design strictly: very large black/red bold Chinese title at top, three stacked thin pink rectangular frames with rounded pink tabs with white bold text overlapping top-left edges. Preserve relative frame heights and white space, top frame left text/right small pink-clothed pregnant woman cartoon, middle frame row of four illustrations, bottom frame three columns. No extra subtitle, no new small print, no watermark. Replace old ALL text with following exact Chinese, use beautifully crisp Chinese sans serif:
-Top title: “孕期补钙怎么安排🥛” (孕期 black, 补钙 red, 怎么安排 black).
-Frame1 pink tab “一天搭配示例”. Four black menu lines left, keep illustration on right:
-“早餐：牛奶＋全麦面包＋煮鸡蛋”
-“午餐：米饭＋番茄炖豆腐＋炒小白菜”
-“加餐：原味酸奶＋猕猴桃”
-“晚餐：米饭＋清蒸鱼＋西兰花”
-Frame2 tab “这一餐的钙，从哪里来”. Four isolated food illustrations on white, evenly spaced, realistic milk in glass, yogurt in white bowl with silver spoon, tofu cubes on blue-rimmed plate, green bok choy on plain plate. Under each “牛奶”“酸奶”“豆腐”“小白菜”. Match original mixed realistic/simple graphic treatment and scale.
-Frame3 tab “食物和钙片，怎样一起算”. Three columns, bold heading with subtle light pink underline exactly like reference. Left heading “奶制品”, below large readable body “看钙含量，再乘实际吃的份量。” middle heading “豆制品”, below “凝固剂不同，钙含量也不同。” right heading “补充剂”, below “钙片和复合维生素中的钙，都计入当天总量。” Emphasize 钙含量 and 当天总量 red selectively. No pill dosage number, no scientific efficacy claims, no original deficiency symptoms or supplement advertisements. Respect all original section positions and borders, typography hierarchy. Reference is layout input, replace imagery as specified. Output only one portrait image.
