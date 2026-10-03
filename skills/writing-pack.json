@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "status": "wechat-pilot-account-extraction-in-progress",
+  "skills": ["writing-router", "writing-core", "xiaohongshu-writing", "wechat-writing", "pregnabite-writing", "content-writer", "topic-generator", "audience-report", "content-collector", "pattern-extractor", "title-writer", "image-copy-writer", "cover-generator", "image-generator", "body-writer", "hashtag-writer", "product-amplify", "review"],
+  "external_dependencies": ["Feishu CLI and authorization", "image generation capability", "browser access for research"],
+  "scope": "Project bundle; legacy modules still include account-specific material. Not a neutral public distribution."
+}

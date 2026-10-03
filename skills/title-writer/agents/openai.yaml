@@ -1,0 +1,6 @@
+interface:
+  display_name: "标题写作与图片标题增强"
+  short_description: "统一发布、封面和内页标题的写作及审查，按平台与主题引用规则"
+  default_prompt: "Use $title-writer to write and critique publication and image headings using the current content, references, platform rules, and topic requirements."
+policy:
+  allow_implicit_invocation: true
