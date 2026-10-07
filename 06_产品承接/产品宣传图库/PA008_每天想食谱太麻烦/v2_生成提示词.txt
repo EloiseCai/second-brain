@@ -1,0 +1,13 @@
+Edit the supplied marketing reference into a very minimal 3:4 portrait poster, 1200x1600 target. White background EXACT solid RGB(250,248,252), no texture, no gradients, no decorations, no objects, no leaves, no food outside screenshot. This generation produces the LEFT TEXT LAYER ONLY; the original unmodified app screenshot will be composited separately afterward. Keep the whole right portion x=520..1200 COMPLETELY BLANK solid background. Do NOT generate any screenshot, device, panels or placeholder.
+Left column x=45..500; generously spaced vertically with only three coherent text groups:
+At y=230..520, bold very large dark Chinese title, line breaks exactly:
+孕期每天
+想食谱
+太麻烦？
+At y=590..710 purple brand text “妈妈善食” very large bold single line.
+At y=790..1080 three plain large black lines, no bullets, no icons, all same large font about 51px:
+一键生成食谱
+分享给家人
+获取食材清单
+At y=1190 purple “快来试试吧” about 48px.
+Do not add ANY other text, no footers, no fine print, no repeated title, no handwritten text, no ornaments, no rule lines, no checks. Keep all letters inside left 42% of canvas. Background plain uniform. Main goal: clean left-right layout with large functional text readable on phone. Only output one portrait image.

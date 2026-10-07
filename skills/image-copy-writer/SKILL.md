@@ -9,6 +9,8 @@ description: "为已确认选题的 A/B 图文方案编写封面及内页实际�
 
 输入：已确认题意、研究成果、两组对标及 `pattern-extractor` 的完整分析、关键词、事实、账号风格与产品复核状态。缺少材料交回具体环节补齐，不自行改选题。
 
+图片规划和文案阶段先执行 `../image-generator/references/acceptance.md` 的前置检查，生成阶段继续引用同一表。公众号须先读 `../wechat-writing/SKILL.md` 及本篇当前完整正文，再建立段落到图片的对应；下方逐块结构学习用于配图阶段，不作为写公众号正文的前置条件，也不自动继承小红书整组页数。
+
 ## 三部分组合
 
 必读通用包 `../writing-core/SKILL.md`；平台为小红书时读 `../xiaohongshu-writing/SKILL.md`；妈妈善食主题读 `../pregnabite-writing/SKILL.md`。其他平台或主题引用实际存在的包/确认来源，不能套用妈妈善食规则。记录本次组合与实际来源。

@@ -1,7 +1,33 @@
 {
-  "version": "0.1.0",
-  "status": "wechat-pilot-account-extraction-in-progress",
-  "skills": ["writing-router", "writing-core", "xiaohongshu-writing", "wechat-writing", "pregnabite-writing", "content-writer", "topic-generator", "audience-report", "content-collector", "pattern-extractor", "title-writer", "image-copy-writer", "cover-generator", "image-generator", "body-writer", "hashtag-writer", "product-amplify", "review"],
-  "external_dependencies": ["Feishu CLI and authorization", "image generation capability", "browser access for research"],
-  "scope": "Project bundle; legacy modules still include account-specific material. Not a neutral public distribution."
+  "version": "0.3.0",
+  "status": "wechat-baseline-pinned-comment-research",
+  "skills": [
+    "research-core",
+    "pregnabite-research",
+    "writing-router",
+    "writing-core",
+    "xiaohongshu-writing",
+    "wechat-writing",
+    "pregnabite-writing",
+    "content-writer",
+    "topic-generator",
+    "audience-report",
+    "content-collector",
+    "pattern-extractor",
+    "title-writer",
+    "image-copy-writer",
+    "cover-generator",
+    "image-generator",
+    "body-writer",
+    "hashtag-writer",
+    "pinned-comment-writer",
+    "product-amplify",
+    "review"
+  ],
+  "external_dependencies": [
+    "Feishu CLI and authorization",
+    "image generation capability",
+    "browser access for research"
+  ],
+  "scope": "Shared router with independent XHS and WeChat workflows. WeChat body-first baseline fixed; actual publication validation tracked separately. XHS adds pinned-comment research and writing after hashtags. Account data and platform constraints remain separately referenced."
 }
