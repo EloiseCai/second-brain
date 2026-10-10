@@ -9,7 +9,7 @@ description: "按已批准 Image Brief 制作用户选定整组中的内页，�
 
 本 Skill 负责用户选定整组中的内页的生产，不重新决定选题或擅改已批文案。
 
-规划、提示词与实图验收统一执行 [封面与配图统一验收](references/acceptance.md)。切入角度、品牌一致性及信息对应必须在各自阶段核对，不能等用户发现问题后才补。公众号读取 `../wechat-writing/SKILL.md`，在正文之后规划配图。
+规划、提示词与实图验收统一执行 [封面与配图统一验收](references/acceptance.md)。切入角度、品牌一致性及信息对应必须在各自阶段核对，不能等用户发现问题后才补。公众号读取 `../wechat-writer/SKILL.md`，在正文之后规划配图。
 
 执行前读取通用 `../writing-core/SKILL.md`、当前平台包（小红书为 `../xiaohongshu-writing/SKILL.md`）与已确认主题包（妈妈善食为 `../pregnabite-writing/SKILL.md`）。三部分按实际来源组合，主题变化替换主题包。
 

@@ -182,6 +182,8 @@ description: "创建和维护小红书总复盘表与单篇发布复盘，记录
 
 ### 人群问题与方案反馈
 
+模块交付前执行 [audience-report统一写入关口](../audience-report/references/writeback-gate.md)，读取最新规则，有增量完成写入与回读再交接，无新增登记后继续；本Skill不另设洞察字段模板。
+
 每篇复盘关联问题ID、角度ID、方案ID/版本，并执行audience-report的 [六维组合与验证SOP](../audience-report/references/problem-library-sop.md) 第7—8步。交接实际指标、窗口、投放状态、笔记和复盘链接，由audience-report更新组合明细并重新汇总多篇表现；同一篇同一窗口更新原行，不重复累加。历史稿未确认关联时标未关联。
 
 指标含义、原因判断、替代解释及下一步优化保留在单篇复盘。《用户洞察》只接收组合统计及实际取得的新用户证据，不复制诊断流程。当前已授权范围内连续完成回写与回读，失败标待回写。review不修改App漏斗列，不以同期新增用户冒充单篇转化。

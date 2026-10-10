@@ -1,16 +1,21 @@
 {
-  "version": "0.3.0",
-  "status": "wechat-baseline-pinned-comment-research",
+  "version": "0.8.0",
+  "status": "maintainer-source-employee-release-preparation",
   "skills": [
+    "workspace-initializer",
     "research-core",
     "pregnabite-research",
     "writing-router",
     "writing-core",
     "xiaohongshu-writing",
-    "wechat-writing",
+    "wechat-writer",
     "pregnabite-writing",
     "content-writer",
+    "content-planner",
+    "hook-generator",
+    "story-builder",
     "topic-generator",
+    "topic-radar",
     "audience-report",
     "content-collector",
     "pattern-extractor",
@@ -25,9 +30,9 @@
     "review"
   ],
   "external_dependencies": [
-    "Feishu CLI and authorization",
+    "Selected storage: authorized Feishu CLI or writable Obsidian vault",
     "image generation capability",
     "browser access for research"
   ],
-  "scope": "Shared router with independent XHS and WeChat workflows. WeChat body-first baseline fixed; actual publication validation tracked separately. XHS adds pinned-comment research and writing after hashtags. Account data and platform constraints remain separately referenced."
+  "scope": "Workspace initialization with selected Feishu/Obsidian storage, topic bindings, selected platforms, and workspace DIY layers. Two-round topic research, shared Creative Brief, content planning and optional product amplification. New backends and custom platform branches require actual execution validation."
 }

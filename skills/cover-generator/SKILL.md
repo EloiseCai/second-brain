@@ -9,7 +9,7 @@ description: "读取账号已确认的统一封面标准与获批 Image Brief，
 
 本 Skill 负责经批准的 A/B 封面的生产，不重新决定选题或擅改已批文案。
 
-规划、提示词与实图验收统一执行 `../image-generator/references/acceptance.md`；公众号读取 `../wechat-writing/SKILL.md` 并按正文后的图片阶段执行。品牌一致性与切入角度须分别有实际图像依据，不能以其中一项通过代替另一项。
+规划、提示词与实图验收统一执行 `../image-generator/references/acceptance.md`；公众号读取 `../wechat-writer/SKILL.md` 并按正文后的图片阶段执行。品牌一致性与切入角度须分别有实际图像依据，不能以其中一项通过代替另一项。
 
 封面的间距规划及实图验收引用 `../image-generator/SKILL.md` 的“通用图片留白与间距”，与内页执行同一要求，不重复维护另一套间距规则。
 

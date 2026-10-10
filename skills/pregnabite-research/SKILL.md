@@ -15,4 +15,10 @@ description: "妈妈善食研究主题包；提供备孕孕期产后范围、搜
 - 既有六维规模、孕期探索例子和历史指标已移入本包：[问题库配置](references/problem-library-sop.md)、[多渠道配置](references/research-workflow.md)、[增量配置](references/incremental-research.md)。其他主题使用 research-core 的通用六维方法，自定有依据的阶段与范围，不加载这些示例池。
 - 研究覆盖不证明产品已支持所有场景；产品有无及拟发布句读取当前证据并由用户核定。
 
+## 各研究模块的主题配置入口
+
+- audience-report：六维与问题ID用问题库配置，渠道范围用多渠道配置，固定洞察位置用账号规则。
+- topic-radar：研究范围引用账号规则，检索起点引用搜索种子；扫描备孕/孕期/产后相关的新资料、时令与真实讨论。radar_doc 为 [04_选题库 / 热点报告](https://my.feishu.cn/wiki/Gj5uwBug9isKDxkEURlcf2Gin5d)，持续更新同一文档。通用扫描参数引用 topic-radar，主题包不复制方法。
+- topic-generator / content-planner：引用上述报告、洞察、选题库、对标与产品事实；本包不重复维护通用步骤。
+
 新的主题事实在本包及其飞书引用维护；通用研究动作改 research-core，平台采集方式改对应平台研究文件。

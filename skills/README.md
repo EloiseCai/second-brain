@@ -40,11 +40,14 @@
 
 ## 当前项目 Skills
 
-- `research-core`：通用写作调研入口、证据标准与职责交接。
+- `workspace-initializer`：首次配置飞书/Obsidian、八分区、主题包、DIY与平台路由；复用已有工作间并检查至少10条有效对标。
+
+- `research-core`：通用写作调研入口、证据标准与具体场景交接。
+- `topic-radar`：独立新鲜话题/热点扫描，维护持续飞书热点报告。
 - `pregnabite-research`：妈妈善食研究范围、检索种子、产品筛选和洞察位置；与写作主题包共享事实引用。
 
 - `writing-router`：跨平台、账号与载体入口，恢复飞书断点并隔离平台要求。
-- `wechat-writing`：公众号知识型长文固定分支，WX1—WX8及断点放行；正文先行、按正文配图，制作与发布分别记录。
+- `wechat-writer`：公众号知识型长文固定分支，WX1—WX8及断点放行；正文先行、按正文配图，制作与发布分别记录。
 
 - `audience-report`：通过六维组合、短关键词及指数、热门笔记、真实反馈和同类孕妈 App／小程序研究，维护具体问题、困惑、情绪与解决方案机会。
 - `content-collector`：筛选、采集和入库内容素材。
@@ -67,6 +70,12 @@
 
 ## 当前研究与反馈链路
 
+### 员工发行与待细调登记（2026-10-10）
+
+逐 Skill 成熟度及流程冲突见 [待细调清单](RELEASE-BACKLOG.md)。员工安装说明见 [EMPLOYEE-INSTALL.md](EMPLOYEE-INSTALL.md)。维护源保留完整功能；员工 ZIP 由 `build-employee-pack.py` 从清单目录生成，并在每个入口加入同一发布范围检查。发布配置放入 writing-router 的引用目录；不依赖员工保留本仓库。
+
+发布前必须明确选择范围：`--scope xiaohongshu` 或 `--scope xiaohongshu-wechat`，并指定仓库外的 `--output`。脚本无默认范围，不能将待确认的公众号支持自动开放。只打包 Skill、安装脚本和说明，不打包账号文档、生成图片、工具或凭据。上传前在临时运行目录安装并 Check，核验 ZIP 清单和 SHA256。员工使用固定 Release，维护者继续在源目录细调；不能把测试包或 main 自动当成员工发行版。
+
 ### 整包安装与可移植状态
 
 `writing-pack.json` 列出当前套件版本与依赖。取得完整 `skills/` 目录后，在 PowerShell 执行：
@@ -76,10 +85,20 @@
 ./skills/install-writing-pack.ps1 -Check
 ```
 
-支持 `-TargetRoot` 指向实际运行目录。安装复用 sync-skill.ps1 的备份与 SHA256 校验；某包失败即停止，此前成功的包可能已部署，修复后重新校验。安装不包含第三方工具、飞书权限和账号数据，不自动提交或推送。新会话从 writing-router 开始。
+支持 `-TargetRoot` 指向实际运行目录。安装复用 sync-skill.ps1 的备份与 SHA256 校验；某包失败即停止，此前成功的包可能已部署，修复后重新校验。安装不包含第三方工具、飞书权限和账号数据，不自动提交或推送。新会话从 writing-router 开始；首次或配置缺失调用workspace-initializer，已有配置直接验证并续做。初始化规则支持飞书/Obsidian的存储映射，实际后端连接和端到端制作需分别验证，不能把规则安装当作试跑完成。
 
 当前规则已持久化；公众号流程已按2026-10-07确认固定，实际发布端验证单独记录；旧研究模块仍有账号专属内容，跨账号需继续绑定和迁移，不能称任意主题开箱即用。其他电脑可以安装当前完整目录副本；通过 Git 获取之前必须确认新增文件已提交、推送。相同规则不保证模型逐字生成相同文本。
 
-### 既有研究链路
+### 当前内容包调度
+
+2026-10-09：热点雷达支持 radar_mode=on/off，妈妈善食流程默认关闭；关闭直接进入洞察，不要求热点报告或补查旧雷达任务。开关以 writing-router/references/orchestration.md 为准。
+
+2026-10-08当前：topic-generator未指定题从第一轮、指定题从第二轮开始，研究后交content-planner；重复的content-research已合回。分发平台改由初始化多选确认，一题可多平台策划，一题可拆多篇不同容量内容。通用模块与主题包分离；策划资料经主题包读取，生产再加载平台规则。wechat-writing更名wechat-writer，旧运行目录需迁出技能发现路径。
+
+### 前序三层调度（以当前内容包调度为准）
+
+2026-10-08确认：writing-router 顶层调度 topic-radar（现为可选）→ audience-report → topic-generator → 用户选题 → 第二轮研究 → 对应平台writer。三个研究模块均可独立运行，Topic Generator只读取报告并自行验证、整理选题，不直接重跑洞察研究。具体执行见 writing-router/references/orchestration.md；内容选题与产品验证选题分流，具体场景逐次锁定。
+
+### 历史研究链路（职责以当前三层调度为准）
 
 PregnaBite于2026-09-24确认以孕妈各类问题为探索范围：audience-report六维选项列举与组合假设、搜索双向取证、问题ID与方案ID → topic-generator匹配解决方案并展开不同角度 → content-writer按已确认方向生产 → review结合实际封面与数据复盘 → audience-report按问题＋角度＋方案回填多篇表现统计（单篇诊断与优化留在review），同时pattern-extractor维护封面规律与验证记录。所有人群研究统一归纳进固定飞书《用户洞察》，用户审核与外部证据分开保留。功能尚未存在时可以先验证问题和方案，不能宣传为已上线能力。当前优先完善前期调研，封面实验留作后续执行；18%为用户确认的官方CTR中位数及本账号优化目标。

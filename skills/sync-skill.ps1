@@ -7,7 +7,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 if (-not $TargetRoot) {
-    $codexDirectory = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $env:USERPROFILE '.codex' }
+    $userDirectory = if ($env:USERPROFILE) { $env:USERPROFILE } else { [Environment]::GetFolderPath('UserProfile') }
+    $codexDirectory = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $userDirectory '.codex' }
     $TargetRoot = Join-Path $codexDirectory 'skills'
 }
 $source = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot $Name))
