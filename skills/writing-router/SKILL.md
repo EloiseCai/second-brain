@@ -7,7 +7,7 @@ description: "统一内容写作入口；第一步内部完成工作间初始化
 
 用户统一调用writing-router，无需另记初始化入口。
 
-初始化前先执行 [安装版本与员工使用范围](references/distribution.md)。员工版先展示实际可用分支并询问是否开始；维护版沿用完整配置能力。
+初始化前先读取 [当前可用分支与启动提示](references/distribution.md) 和 routes.json。所有人使用同一套规则，按分支 ready 状态提示可用平台并询问是否开始。
 
 ## 第一步：初始化或恢复工作间
 

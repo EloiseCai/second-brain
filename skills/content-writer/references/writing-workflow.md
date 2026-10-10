@@ -62,7 +62,7 @@ flowchart TD
 
 ## 当前流程修正位置
 
-2026-10-10员工交付准备：当前位置为 writing-router 安装版本检查与分发验收。沿用上方同一总图；员工仅能进入发布配置开放的分支，其他节点的存在不代表对员工开放。未精调模块及衔接问题登记在 ../../RELEASE-BACKLOG.md；topic-radar 留到个人自媒体流程再调。新电脑完整试稿尚待执行。
+2026-10-10统一分发：当前位置为 writing-router 就绪状态提示与安装验收。沿用上方同一总图；所有人共用 routes.json，小红书图文和公众号长文 ready，其余分支施工中。新分支完成后更新状态并同步即可使用。待细调清单见 ../../RELEASE-BACKLOG.md；topic-radar 延期。
 
 2026-10-10当前：所有来源统一经audience-report写入关口使用最新规则。有增量写入与回读成功再交接，无新增记录后继续，失败保留待回写；独立对标、两轮选题、writer补查和review同样适用。协议只维护在 audience-report/references/writeback-gate.md。
 

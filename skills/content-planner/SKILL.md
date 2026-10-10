@@ -13,6 +13,8 @@ description: "选题确定后策划跨平台内容包，统一Creative Brief，�
 
 ## P1 内容包与研究
 
+读取 writing-router/references/routes.json 区分当前可制作分支与施工分支。常规制作按本轮选定的 ready 分支策划；用户明确要求探索或细调其他分支时可继续规划，但不得报告为已跑通。
+
 在已选存储后端为该题查重建立内容包，准备共用Creative Brief。读取topic-generator第二轮研究交接，读取工作间已确认的selected_platforms规划。发现关键证据或参考缺口时定向返回第二轮补查，不另起一轮重复研究。
 
 ## P2 统一 Creative Brief

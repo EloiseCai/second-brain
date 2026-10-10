@@ -21,6 +21,8 @@ description: "writing-router第一步使用的内部初始化子模块；配置�
 
 ## I3 DIY与平台确认
 
+先读取 writing-router/references/routes.json，在平台菜单标出当前 ready 与施工中分支；状态对所有人相同。更新后的 ready 分支随配置同步可选，不需要员工专用授权。
+
 询问是否需要调整前期调研、增加步骤或Skill；允许“沿用标准流程”。记录用户增加/替换/关闭的节点、前后位置、实际Skill名称、输入输出、要求、critique与暂停点。共享基线保持可升级，定制存为本工作间workflow_overrides，不能靠会话摘要恢复。给用户展示合并后的执行顺序及具体差异；冲突明确指出并确认处理，不静默吞掉旧要求。
 
 热点雷达作为可选步骤保存 radar_mode=on/off；开关优先级与妈妈善食默认关闭规则引用 [调度协议](../writing-router/references/orchestration.md#热点雷达开关)。用户已明确选择直接登记，不重复询问；其他流程首次未配置时提供开启/关闭选项。

@@ -70,11 +70,11 @@
 
 ## 当前研究与反馈链路
 
-### 员工发行与待细调登记（2026-10-10）
+### 统一安装包与待细调登记（2026-10-10）
 
-逐 Skill 成熟度及流程冲突见 [待细调清单](RELEASE-BACKLOG.md)。员工安装说明见 [EMPLOYEE-INSTALL.md](EMPLOYEE-INSTALL.md)。维护源保留完整功能；员工 ZIP 由 `build-employee-pack.py` 从清单目录生成，并在每个入口加入同一发布范围检查。发布配置放入 writing-router 的引用目录；不依赖员工保留本仓库。
+逐 Skill 成熟度及流程冲突见 [待细调清单](RELEASE-BACKLOG.md)。安装说明见 [INSTALL.md](INSTALL.md)。所有人使用同一套 Skill；writing-router/references/routes.json 是分支就绪状态的唯一来源。当前小红书图文与公众号长文 ready，入口提示并询问是否开始。后续更新该状态并同步规则即可，不另做员工权限或发行变体。
 
-发布前必须明确选择范围：`--scope xiaohongshu` 或 `--scope xiaohongshu-wechat`，并指定仓库外的 `--output`。脚本无默认范围，不能将待确认的公众号支持自动开放。只打包 Skill、安装脚本和说明，不打包账号文档、生成图片、工具或凭据。上传前在临时运行目录安装并 Check，核验 ZIP 清单和 SHA256。员工使用固定 Release，维护者继续在源目录细调；不能把测试包或 main 自动当成员工发行版。
+`python skills/build-writing-pack.py --output <仓库外目录>` 按清单原样打包 Skill、安装脚本和说明，不注入额外规则，不含账号资料或凭据。上传前临时安装并 Check、核验 SHA256。其他电脑可更新仓库后重新安装同步，也可下载新 ZIP；不会自动更新已安装的本地文件。
 
 ### 整包安装与可移植状态
 

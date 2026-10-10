@@ -1,4 +1,4 @@
-"""Build an explicit-scope employee ZIP; no repository data or credentials."""
+"""Build the shared writing ZIP byte-for-byte from maintained skills."""
 import argparse
 import hashlib
 import json
@@ -7,16 +7,10 @@ import re
 import zipfile
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--scope', required=True, choices=['xiaohongshu', 'xiaohongshu-wechat'])
 parser.add_argument('--output', type=Path, required=True)
 args = parser.parse_args()
 root = Path(__file__).resolve().parent
 manifest = json.loads((root / 'writing-pack.json').read_text(encoding='utf-8-sig'))
-routes = ['xiaohongshu-image-text']
-if args.scope == 'xiaohongshu-wechat':
-    routes.append('wechat-longform')
-profile = {'version': manifest['version'], 'mode': 'employee', 'allowed_routes': routes,
-           'radar_mode': 'off', 'require_start_confirmation': True}
 files = {}
 for name in manifest['skills']:
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', name):
@@ -33,23 +27,14 @@ for name in manifest['skills']:
             raise ValueError(f'Unexpected package file: {path}')
         relative = path.relative_to(root).as_posix()
         content = path.read_bytes()
-        if path.name == 'SKILL.md':
-            text = content.decode('utf-8-sig')
-            # All directly invoked helpers must observe the same distribution scope.
-            end = text.index('\n---', 3) + len('\n---')
-            ref = 'references/distribution.md' if name == 'writing-router' else '../writing-router/references/distribution.md'
-            guard = f'\n\n员工发行版入口：执行前先读取 [{ref}]({ref}) 及其发布配置；未经启动确认或不在开放范围，不开始制作。\n'
-            content = (text[:end] + guard + text[end:]).encode('utf-8')
         files['skills/' + relative] = content
-for name in ['install-writing-pack.ps1', 'sync-skill.ps1', 'EMPLOYEE-INSTALL.md', 'RELEASE-BACKLOG.md']:
+for name in ['install-writing-pack.ps1', 'sync-skill.ps1', 'INSTALL.md', 'RELEASE-BACKLOG.md']:
     files['skills/' + name] = (root / name).read_bytes()
-manifest.update(status='employee-frozen-release', scope=routes)
-files['skills/writing-pack.json'] = json.dumps(manifest, ensure_ascii=False, indent=2).encode('utf-8')
-files['skills/writing-router/references/release-profile.json'] = json.dumps(profile, indent=2).encode('utf-8')
+files['skills/writing-pack.json'] = (root / 'writing-pack.json').read_bytes()
 inventory = {name: hashlib.sha256(data).hexdigest() for name, data in sorted(files.items())}
 files['SHA256SUMS.json'] = json.dumps(inventory, indent=2).encode('utf-8')
 args.output.mkdir(parents=True, exist_ok=True)
-archive = args.output / f"writing-pack-{manifest['version']}-{args.scope}.zip"
+archive = args.output / f"writing-pack-{manifest['version']}.zip"
 if archive.exists():
     raise FileExistsError(archive)
 with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED) as z:

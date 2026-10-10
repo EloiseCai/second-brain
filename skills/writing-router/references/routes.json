@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "routes": [
+    {
+      "id": "xiaohongshu-image-text",
+      "label": "小红书图文",
+      "status": "ready",
+      "skill": "content-writer"
+    },
+    {
+      "id": "wechat-longform",
+      "label": "公众号长文",
+      "status": "ready",
+      "skill": "wechat-writer"
+    },
+    {
+      "id": "story-comic",
+      "label": "故事漫画",
+      "status": "in_progress",
+      "skill": null
+    },
+    {
+      "id": "douyin-video",
+      "label": "抖音视频",
+      "status": "in_progress",
+      "skill": null
+    },
+    {
+      "id": "channels-video",
+      "label": "视频号",
+      "status": "in_progress",
+      "skill": null
+    }
+  ]
+}
