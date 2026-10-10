@@ -9,6 +9,8 @@ description: "为妈妈善食 PregnaBite 的标题、图片、正文与 critique
 
 ## 实际来源（现场读取，按本篇适用）
 
+- 钩子原话与规律（`hook_library`）：[钩子原话与规律｜妈妈善食](https://my.feishu.cn/docx/JdDZdOdDpoA5TqxnO7vcsfPvnvf)，位于03_内容规律。hook-generator写前读取实际原句及机制，pattern-extractor在对标分析时增量维护；标题、图片与正文通过内容包引用已选钩子，不能只读抽象规律。通用方法见 hook-generator/references/hook-library.md。
+
 - 定位：[定位总览](https://my.feishu.cn/docx/ZLxEdoKwnoe8t5xFpzQcVtOQnuc)。旧定位与用户最新确认冲突时以最新确认范围为准。
 - 写作偏好：[写作模式持续记录](https://my.feishu.cn/docx/JHFhdwGe1oysVVx3n4Dcg4t8npc)。写前读取，交付前复核；其中“引用呈现”规定读者文章不显示引用编号，来源核验仍保存在制作备注，交付时检查正文与图片文字。本账号偏好不扩展为其他账号或平台官方规则。
 - 统一封面：[妈妈善食封面标准](https://my.feishu.cn/docx/CUoud9EHdoRGB4xPZGEc44RknRc)中的“当前封面制作标准”及实际标准样图。用户于2026-10-02确认后续封面沿用此标准；页面后方候选仅留档。每次封面规划、生成及实图 critique 必读，标题、副标题、标签、主题图片和品牌页脚按该处区分固定形式与本篇变量；不在其他 Skill 重复保存视觉参数。

@@ -17,7 +17,7 @@ flowchart TD
  P --> PA["product-amplify：启用篇的功能证据与承接规划<br/>故事类在分镜定稿前完成解决方案融入"]
  PA -.-> S
  P --> PL["知识型／故事型／产品型<br/>长文、短图文、短漫画、视频等"]
- PL --> H["hook-generator：钩子与注意力设计"]
+ PL --> H["hook-generator：当前细调<br/>整篇标题＋完整正文＋整组图片<br/>独立钩子与配合关系→落点与兑现→critique"]
  H --> S["story-builder：真实场景与故事方案"]
  S --> F{"各平台正式制作"}
  F --> X["content-writer：小红书"]
@@ -37,12 +37,14 @@ flowchart TD
  WP --> Z
  Z --> RV["review：发布后复盘"]
  K["独立对标建库任务<br/>content-collector→pattern-extractor"] --> DB["对标素材／规律库"]
+ DB -.->|钩子原话与机制| H
  DB -.->|按题引用，缺项定向补齐| T
  D["主题包→内容包按章节交接"] -.-> P
  K -.->|洞察增量经统一关口| B
  T -.->|交接前增量回写| B
  RV -.->|新证据与组合表现| B
- style B fill:#dcfce7,stroke:#15803d,stroke-width:3px
+ style B fill:#dcfce7,stroke:#15803d
+ style H fill:#dbeafe,stroke:#2563eb,stroke-width:3px
  style RS fill:#fef3c7,stroke:#b45309
  style I fill:#fef3c7,stroke:#b45309
  style G fill:#fef3c7,stroke:#b45309
@@ -61,6 +63,8 @@ flowchart TD
 当前已落实：正文三部分规则组合；正文与评论钩子的交付结构，产品承接按篇启用并由product-amplify提供；对标逐句语气与文本结构映射；逐句四项 critique 和逐模块放行；图文互补与评论逆向提问。`hashtag-writer` 已拆分并固定10个；取消固定求赞。搜索关键词与标签的强制映射已确认，下游环节继续逐项细调。妈妈善食统一封面标准已确认，读取 pregnabite-writing 的飞书规范与标准图，不从新对标自动更换。
 
 ## 当前流程修正位置
+
+2026-10-10当前细调：hook-generator以整篇标题、完整正文和整组图片资料为分析单位，正文中后段与图片的独立钩子、各载体配合关系进入同一协议；pattern-extractor、content-planner统一引用。妈妈善食飞书钩子库保留16条标题原话，13篇补完整正文及已有整组图片分析，22处正文原话逐条核对；B11两图、B42三图另看原图，其余明确引用已有分析。3条保留为片段线索。实际效果、候选数量与评分仍待细调。本轮不改变已确认的平台生产顺序。
 
 2026-10-10统一分发：当前位置为 writing-router 就绪状态提示与安装验收。沿用上方同一总图；所有人共用 routes.json，小红书图文和公众号长文 ready，其余分支施工中。新分支完成后更新状态并同步即可使用。待细调清单见 ../../RELEASE-BACKLOG.md；topic-radar 延期。
 
