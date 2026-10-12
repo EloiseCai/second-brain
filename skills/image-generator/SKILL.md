@@ -17,7 +17,7 @@ description: "按已批准 Image Brief 制作用户选定整组中的内页，�
 
 小红书每批内页生成前必须执行 `../content-writer/references/interior-gate.md` 和其检查脚本；缺用户整组选模证据、混入其他模板、页序或信息结构不符时不得调用生成工具。A/B第二页仅按samples路径制作，不能借样张授权生成整组。
 
-实际生成使用 `imagegen` Skill 和工具；每张提示词定稿后 critique，生成后查看实际图像、逐字核对获批文案，再按 `stage-critique.md`（位于 content-writer/references）验收内容、细节与整组关系。未通过修复再继续下一张，不能拿提示词正确替代成图检查。
+实际生成使用 `imagegen` Skill 和工具；每张提示词在调用工具前执行 [至少三轮复核](../content-writer/references/three-pass-review.md)，每轮都完成提示词的原图与文案映射、事实与视觉语义、排版容量与指令一致性等全项检查，生成后查看实际图像、逐字核对获批文案，再按 `stage-critique.md`（位于 content-writer/references）验收内容、细节与整组关系。未通过修复再继续下一张，不能拿提示词正确替代成图检查。
 
 通用封面模式执行 `../content-writer/references/production-review.md` 的“通用封面下的A/B内页选择”：cover-generator制作通用封面，image-generator在整组选择前仅生成A/B各自已批第二页比较样张，合并展示供用户选定；其余内页只生成用户明确选择的整组。通用封面通过不能代替整组对标选择。实际图片按原有主项目归档和飞书交付规则保存；不另建本地内容文档。
 

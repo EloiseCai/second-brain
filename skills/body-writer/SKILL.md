@@ -7,6 +7,8 @@ description: "按平台编排撰写发布正文；公众号先正文后配图，
 
 输入按平台区分：小红书图文使用获批标题、实际图片与已审文字、Creative Brief、研究成果、评论、关键词及产品原句；公众号使用正文创作 Brief、公众号正文主对标与分析、研究成果、评论、关键词及产品依据，先写完整正文，无需实际图片或图片文案批准。公众号执行 `../wechat-writer/SKILL.md` 的 WX4，写后再到 WX5 规划配图。局部修稿遵守用户指定范围。
 
+正文初写及改稿必须执行 [至少三轮复核](../content-writer/references/three-pass-review.md)，每轮都完整核对本模块的逐句对标与主线、事实及推理、全文逐句表达与读者行动等全部适用要求；完成修正复查再交接，不能只审开头或用一轮整体自检替代。
+
 ## 三部分组合
 
 必读 `../writing-core/SKILL.md`；小红书读 `../xiaohongshu-writing/SKILL.md`，公众号读 `../wechat-writer/SKILL.md`；妈妈善食读 `../pregnabite-writing/SKILL.md`。其他账号替换主题包及其真实来源。每部分可包含写法，按真实存在的适用条目组合，不复制到本文件。

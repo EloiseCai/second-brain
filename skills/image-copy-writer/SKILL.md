@@ -11,6 +11,8 @@ description: "为已确认选题的 A/B 图文方案编写封面及内页实际�
 
 图片规划和文案阶段先执行 `../image-generator/references/acceptance.md` 的前置检查，生成阶段继续引用同一表。公众号须先读 `../wechat-writer/SKILL.md` 及本篇当前完整正文，再建立段落到图片的对应；下方逐块结构学习用于配图阶段，不作为写公众号正文的前置条件，也不自动继承小红书整组页数。
 
+每页图片文本必须执行 [至少三轮复核](../content-writer/references/three-pass-review.md)：写前先看对标容量与整体组织，拟文后在出图前细看结构；每轮都完整核对本模块的原意对应、事实推理、表达容量及全部适用要求，连续执行至少三轮。单页超量先精简，拆页须按协议确认。
+
 ## 三部分组合
 
 必读通用包 `../writing-core/SKILL.md`；平台为小红书时读 `../xiaohongshu-writing/SKILL.md`；妈妈善食主题读 `../pregnabite-writing/SKILL.md`。其他平台或主题引用实际存在的包/确认来源，不能套用妈妈善食规则。记录本次组合与实际来源。

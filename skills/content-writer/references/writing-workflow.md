@@ -1,6 +1,6 @@
 # 写作总流程与细调位置
 
-本图是流程细调期间唯一维护的总图。状态表示规则细调进度，不表示当前文章已经生成。“已确认”只表示节点方向获确认，节点内旧参数仍须按下方待核对项区分，不能当作全部逐条获批。每轮保持节点和整体范围，更新细调位置；不以当前模块局部图替代。所有生产模块均执行“写/生成 → critique → 修改复查 → 放行”。
+本图是流程细调期间唯一维护的总图。状态表示规则细调进度，不表示当前文章已经生成。“已确认”只表示节点方向获确认，节点内旧参数仍须按下方待核对项区分，不能当作全部逐条获批。每轮保持节点和整体范围，更新细调位置；不以当前模块局部图替代。所有生产模块均执行“写/生成 → critique → 修改复查 → 放行”；图片文本、发布正文和出图提示词各自至少三轮，详见 three-pass-review.md。
 
 ```mermaid
 flowchart TD
@@ -22,16 +22,16 @@ flowchart TD
  H --> S["story-builder：真实场景与故事方案"]
  S --> F{"各平台正式制作"}
  F --> X["content-writer：小红书"]
- X --> X1["title-writer＋image-copy-writer<br/>两组完整对标适配<br/>通用封面＋A/B首张内容页文案→审查"]
- X1 --> X2["cover-generator→image-generator<br/>对标封面选择／通用封面＋A/B第二页样张选择<br/>继承用户所选整组对标→剩余文案审批→剩余内页"]
- X2 --> XB["body-writer：正文与互动"]
+ X --> X1["title-writer＋image-copy-writer<br/>两组完整对标适配；图片文案三轮复核<br/>通用封面＋A/B首张内容页文案→审查"]
+ X1 --> X2["cover-generator→image-generator<br/>提示词三轮复核→逐张并排验收<br/>对标封面选择／通用封面＋A/B第二页样张选择<br/>继承用户所选整组对标→剩余文案审批→剩余内页"]
+ X2 --> XB["body-writer：正文与互动，三轮复核"]
  XB --> XP["product-amplify：按篇启用<br/>产品图＋正文搜索承接句；关闭则跳过"]
  XP --> X3["hashtag-writer：10个标签"]
  X3 --> X4["pinned-comment-writer"]
  F --> W["wechat-writer：公众号"]
- W --> W1["title-writer＋body-writer<br/>标题与完整正文"]
- W1 --> W2["image-copy-writer<br/>按正文规划横版配图→审查"]
- W2 --> W3["cover-generator→image-generator"]
+ W --> W1["title-writer＋body-writer<br/>标题与完整正文，正文三轮复核"]
+ W1 --> W2["image-copy-writer<br/>按正文规划横版配图→文案三轮复核"]
+ W2 --> W3["cover-generator→image-generator<br/>提示词三轮复核→逐张并排验收"]
  F --> N["抖音／视频号／自定义平台<br/>缺流程先DIY配置，生产协议待细调"]
  X4 --> Z["整篇验收→已选后端交付与图片归档"]
  W3 --> WP["product-amplify：按篇启用<br/>文末产品承接；关闭则跳过"]
@@ -65,6 +65,8 @@ flowchart TD
 当前已落实：正文三部分规则组合；正文与评论钩子的交付结构，产品承接按篇启用并由product-amplify提供；对标逐句语气与文本结构映射；逐句四项 critique 和逐模块放行；图文互补与评论逆向提问。`hashtag-writer` 已拆分并固定10个；取消固定求赞。搜索关键词与标签的强制映射已确认，下游环节继续逐项细调。妈妈善食统一封面标准已确认，读取 pregnabite-writing 的飞书规范与标准图，不从新对标自动更换。
 
 ## 当前流程修正位置
+
+2026-10-12本轮：image-copy-writer、body-writer及cover-generator/image-generator提示词各自至少三轮复核，每个模块每轮重复自己的完整检查清单，统一引用 three-pass-review.md。图片保留“先原图容量与组织→拟文→再次细看原图→提示词”的顺序；超量先精简，拆页须确认；成图逐张并排验收不变。此次为规则部署，实际生产效果待后续文章验证。
 
 2026-10-12：当前优化J图片生产节点，通用封面与A/B第二页样张展示后明确选模；每批内页检查真实选择证据、唯一整组来源与逐页结构。保持其余总流程不变。
 
