@@ -1,0 +1,18 @@
+Use case: infographic-diagram. Create one finished Xiaohongshu portrait cover in EXACT 3:4 1080x1440, opaque white with pink outer frame. Reference B57 image4, Feishu J87idikM6o2uMMxJKHacmxIInug. Keep EXACT layout: huge one-line black/red heading, four stacked thin pink rectangular frames with pink rounded tabs overlapping upper-left boundaries, left aligned text and single food photograph vignette at right in each frame, pink/white/black/red color palette. Same relative four-panel heights: first largest, second and third medium, fourth smaller. No extra subtitle region, footer, badge, watermark, added tiny text. Adapt this same calcium reference set to a concrete one-day meal menu. Title exact “孕期补钙这样搭🥛” (孕期 black, 补钙 red, 这样搭 black).
+Panel1 tab “早餐｜一天搭配示例”. Text on left exact:
+“牛奶＋全麦面包＋煮鸡蛋”
+“牛奶提供钙；面包补充能量，鸡蛋提供蛋白质。”
+Right: glass of milk, wholegrain toast, fully cooked egg on small white plate, realistic delicious natural daylight, isolated white background.
+Panel2 tab “午餐｜豆腐配青菜”. Left:
+“米饭＋番茄炖豆腐＋炒小白菜”
+“豆腐的钙含量与凝固剂有关，买时留意钙含量。”
+Right: small rice bowl plus tomato tofu in blue rim shallow bowl and bok choy side plate; chopsticks angled to right.
+Panel3 tab “加餐｜酸奶搭水果”. Left:
+“原味酸奶＋猕猴桃”
+“酸奶也能提供钙，合计时把这一杯算进去。”
+Right: white yogurt bowl with kiwi pieces and slender metal spoon angled left.
+Panel4 tab “晚餐｜鱼肉配时蔬”. Left:
+“米饭＋清蒸鱼＋西兰花”
+“鱼肉提供蛋白质，西兰花补充蔬菜；当天还吃了钙片，也要核对钙含量。”
+Right: steamed fish on oval plate with broccoli side and small rice bowl, unobtrusive photo vignette fit into existing image slot.
+Dish names bold black, key calcium phrases red, bodies black, tabs white on pink. Legible consistent Chinese typography like original. No brands, no dosing prescriptions, no invented health benefits. Preserve source graphic structure, do not turn it into new grid. Output one portrait image.
