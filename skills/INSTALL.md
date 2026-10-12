@@ -22,3 +22,11 @@ Windows 使用 PowerShell；其他系统需要 PowerShell 7（pwsh）。在解�
 每篇仍执行研究、方案选择、图片文字审批、逐模块 critique 与最终验收。生成的文章和图片存入工作间；不会自动发布平台。
 
 升级：拉取团队仓库更新或下载最新 ZIP，重新安装与 Check；新会话重新读取 router。新分支标记 ready 并同步后即可使用，不需要另外解锁。版本规则一致不保证生成文字逐字相同。
+
+## WorkBuddy等其他宿主
+
+写作流程通过writing-router加载完整Skill依赖，并读取初始化保存的账号资料与工具配置，不依赖仓库根目录agents.md。先在目标宿主确认实际支持的Skill导入方式和目录，再完整导入本套件；不要只复制writing-router一个目录。
+
+现有PowerShell安装脚本默认目标是Codex。用于其他宿主时，必须显式传入已经确认的Skill目录：`./skills/install-writing-pack.ps1 -TargetRoot '实际目录'`，随后用相同TargetRoot加`-Check`。不要猜WorkBuddy目录。目标工具支持何种格式、能否发现Skills及工具能否调用，需在员工环境验证；本包的文件同步校验不代表已完成WorkBuddy实跑。
+
+首次运行由workspace-initializer询问或发现该使用者的知识库父位置、定位总览、写作原则及飞书连接配置，完成本机授权验证；已有团队配置可复用，个人授权重新确认。凭据与登录态不随包分发。

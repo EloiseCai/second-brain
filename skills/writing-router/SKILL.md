@@ -5,7 +5,7 @@ description: "统一内容写作入口；第一步内部完成工作间初始化
 
 # 写作入口
 
-用户统一调用writing-router，无需另记初始化入口。
+用户统一调用writing-router，无需另记初始化入口。写作规则直接加载writing-core、平台包与主题包，资料及授权绑定读取workspace-initializer配置；在WorkBuddy等宿主同样按这些文件执行，不以根目录agents.md是否加载为前提。
 
 初始化前先读取 [当前可用分支与启动提示](references/distribution.md) 和 routes.json。所有人使用同一套规则，按分支 ready 状态提示可用平台并询问是否开始。
 
@@ -25,7 +25,7 @@ workspace-initializer是本入口内部调用的初始化子模块，不作为�
 
 1. 新任务确定账号/主题、选题来源与目标，读取初始化确认的分发平台，不默认三个平台；类型与载体由内容策划细化；续做先通读飞书当前稿与执行状态。用户已说清的字段直接沿用，仅对有歧义的组合确认一次。
 2. 加载 `../writing-core/SKILL.md`、当前平台包及当前主题资料。小红书用 `../xiaohongshu-writing/SKILL.md`；公众号用 `../wechat-writer/SKILL.md`；仅妈妈善食用 `../pregnabite-writing/SKILL.md`。账号不明不能默认妈妈善食。
-3. 选题确定后先执行 `../content-planner/SKILL.md` 的内容包策划、统一Creative Brief与研究，再进入hook-generator和story-builder；完成适用方案后，小红书知识型图文执行 `../content-writer/SKILL.md` 及其总流程（Hashtag 后进入 L2 置顶评论）；公众号知识型长文执行 `../wechat-writer/SKILL.md` 的 WX1—WX8。公众号使用本入口恢复和分流，不另造一套资料配置。其他组合缺执行包时先细调该分支，不宣称已支持。
+3. 选题确定后先执行 `../content-planner/SKILL.md` 的内容包策划、统一Creative Brief与研究，策划初期即调用hook-generator共同确定具体钩子，再进入story-builder；完成适用方案后，小红书知识型图文执行 `../content-writer/SKILL.md` 及其总流程（Hashtag 后进入 L2 置顶评论）；公众号知识型长文执行 `../wechat-writer/SKILL.md` 的 WX1—WX8。公众号使用本入口恢复和分流，不另造一套资料配置。其他组合缺执行包时先细调该分支，不宣称已支持。
 4. 事实、对标分析、洞察、产品能力保留原位置引用，写作与 critique 使用同一套要求。切换公众号从平台入口分支，独立重走调研、对标分析、正文 Brief、完整正文、按正文规划配图与生成、合并验收。不同平台创建独立飞书稿及断点，共享资料只引用原链接。指定题调用topic-generator从第二轮开始；未指定题从第一轮开始。已核验事实可复用引用，不能代替目标平台研究。
 5. 平台切换不继承另一平台的字数、标签数、Emoji、封面比例或页数。账号表达偏好继续使用；旧要求范围不清时列为待核对，不擅自推广或取消。
 6. 每模块交接前执行 [用户洞察统一写入关口](../audience-report/references/writeback-gate.md)。每模块执行通用、平台、主题三部分 critique。状态写入已选存储后端；“继续”只推进记录中的下一步，不代替新功能说法、改题或方案选择的批准。
