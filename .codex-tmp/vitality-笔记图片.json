@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_child": false,
+    "node_token": "L4A2wh5vIinraykpYbMc4BsEnBb",
+    "node_type": "origin",
+    "obj_token": "SBWLdArZ3oToYxxlz54cBSSSnOh",
+    "obj_type": "docx",
+    "origin_node_token": "L4A2wh5vIinraykpYbMc4BsEnBb",
+    "parent_node_token": "TCAHwL3LwiuuE2kYPLXcMKQonSd",
+    "resolved_by": "explicit_space_id",
+    "resolved_space_id": "7694905300230360026",
+    "space_id": "7694905300230360026",
+    "title": "笔记图片",
+    "url": "https://kcnqhm302j2h.feishu.cn/wiki/L4A2wh5vIinraykpYbMc4BsEnBb"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.68",
+      "latest": "1.0.97",
+      "message": "lark-cli 1.0.97 available, current 1.0.68, run: lark-cli update"
+    }
+  }
+}

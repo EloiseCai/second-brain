@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "nodes": [
+      {
+        "has_child": true,
+        "node_token": "ZL4Ww42l9iry87k6dMocx1fVn1u",
+        "node_type": "origin",
+        "obj_token": "XYAtdz3wqoRRM8xFPtPcMz9enmc",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-营养目标型食谱"
+      },
+      {
+        "has_child": true,
+        "node_token": "Dh8Fwn20dipAYkkrETncp1n6nCc",
+        "node_type": "origin",
+        "obj_token": "RLRSdUIgxo2VmcxBiwScqOWBn3f",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-一日餐次搭配"
+      },
+      {
+        "has_child": true,
+        "node_token": "Ml83wNNW6iN7nYkU6AicjnoDnwc",
+        "node_type": "origin",
+        "obj_token": "CUajdvSHMoQ5nCxhNXJcm8gpnYd",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕早期阶段指南"
+      },
+      {
+        "has_child": true,
+        "node_token": "BgQTwFjAqiJHwOkdPRvcRAJ8neg",
+        "node_type": "origin",
+        "obj_token": "OTE3dT6u3o8epdx8Mv9cyeOWn1b",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕期补剂安排"
+      },
+      {
+        "has_child": true,
+        "node_token": "TLhrwygMpiWKVkkHkREcKmkJnhd",
+        "node_type": "origin",
+        "obj_token": "BQsgd9URPola8lxZw7bcQfYYnBh",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-单品饮品食谱"
+      },
+      {
+        "has_child": true,
+        "node_token": "FmoEwKYoTiKtatk3OKkcZY5Entb",
+        "node_type": "origin",
+        "obj_token": "Z0B5dFQd0o8cGlxxZTdc945Dn4c",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕期控糖饮食"
+      },
+      {
+        "has_child": true,
+        "node_token": "TtR5wqZSOiNSD0k6SIVc3ttVn4e",
+        "node_type": "origin",
+        "obj_token": "VML1dxOVooHtv5xassocC9Gznpe",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕吐与反酸应对"
+      },
+      {
+        "has_child": true,
+        "node_token": "O85bwbVURiKEAIkOn79c8ACJn6c",
+        "node_type": "origin",
+        "obj_token": "AFaodEjiconohmxP7x9cPUzJnlh",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕周营养指南"
+      },
+      {
+        "has_child": true,
+        "node_token": "Dtsvw161tiLyg4kBMpQctGGjnIc",
+        "node_type": "origin",
+        "obj_token": "ADgedBy5Oo9HQIx846ecG7bWnt0",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-单品食材吃法"
+      },
+      {
+        "has_child": true,
+        "node_token": "LUBMwFCJviCZy6kYvglcys0Lnpd",
+        "node_type": "origin",
+        "obj_token": "IYJFdmIJSoBUENxecRZchzRYnrg",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕期食物清单"
+      },
+      {
+        "has_child": true,
+        "node_token": "WjQLwikBWiytsjkUH5EcEC54n5c",
+        "node_type": "origin",
+        "obj_token": "GMHGdaFKco9Ue0xYdFyci7dCnCf",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕期综合指南"
+      },
+      {
+        "has_child": true,
+        "node_token": "XMA4wjSDKiQluXkx8pecGa2snMf",
+        "node_type": "origin",
+        "obj_token": "VBGGdIhhzoaOr6x3HSWcs5vZnHE",
+        "obj_type": "docx",
+        "parent_node_token": "PL1CwDHQAiZOCtkxpr9cqjAnn4f",
+        "space_id": "7694905300230360026",
+        "title": "B类-孕期好物清单"
+      }
+    ],
+    "page_token": ""
+  },
+  "meta": {
+    "count": 12
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.68",
+      "latest": "1.0.97",
+      "message": "lark-cli 1.0.97 available, current 1.0.68, run: lark-cli update"
+    }
+  }
+}

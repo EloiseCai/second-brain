@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"outline\"><outline><h1 id=\"doxcn5mWeBTxcQP7uZpPl7DYEWC\">文档说明</h1><h2 id=\"doxcnMgAfRZ94hVuYFH2BK09k5d\">理解依据与研究来源</h2><h1 id=\"doxcnWYqhULcA3SnvauX0EZ622g\">当前材料｜整篇钩子</h1><h2 id=\"doxcn2Yr9ahPlt5GdcwjOUTlVe4\">HK-001｜把一餐的多项操作合在一起</h2><h2 id=\"doxcnrqQHeFyGNTbxs8weIJNHod\">HK-003｜用现成选择帮助新手开始行动</h2><h2 id=\"doxcnHyWEYj2Qpr15qkRRJ3hpyY\">HK-004｜用回望的遗憾让人想提前知道</h2><h2 id=\"doxcnYsMkgCLdOcvH2IhVDGBxee\">HK-005｜在明确结果之后提供可靠的下一步</h2><h2 id=\"doxcnUS0yqkuxTYCHx6Xdj1nbcb\">HK-006｜把远处的指导转成明早能用的安排</h2><h2 id=\"doxcnlC4Fg8l4Jz8aePtBpOSolc\">HK-007｜把不好判断的选择变成可比较的清单</h2><h2 id=\"doxcnbyxsDR88l9ehE44pVDE7kY\">HK-008｜让读者迅速找到当前阶段的答案</h2><h2 id=\"doxcnEi3PFJ7H9mNeVmjpZ3z2Bb\">HK-009｜让熟悉话题出现一个值得核对的缺口</h2><h2 id=\"doxcne76xY1VqasruoiWZ9IJLdf\">HK-010｜把一个饮食目标变成连续七天的安排</h2><h2 id=\"doxcnp9IMpKAVkD0HONOMwrVBqh\">HK-011｜让专业筛选落到熟悉的日常饮品</h2><h2 id=\"doxcnUHACEA0X0YzboMtkpOL78d\">HK-012｜让初次经历的人意识到还有实用细节可补</h2><h2 id=\"doxcnQIGphJYc72BHqB0LrTaDud\">HK-013｜把怎么吃落实到可查看的时间安排</h2><h2 id=\"doxcnTSW9jYmx8YhnKYLnIiIqhG\">HK-014｜一次获得足够轮换的餐食选择</h2><h2 id=\"doxcnQPZWRxZc34rmfBKG7iZ10c\">HK-017｜吃菜吃的是生命力</h2><h1 id=\"doxcnRX9a2QrjGrJoGOYYcR07Vd\">片段线索｜材料待补齐</h1><h2 id=\"doxcnJiY7xuUrDGbAHjdhpZ43yc\">HK-002｜让新手获得一张完整路线图</h2><h2 id=\"doxcnjZ75DM2B0h622j1Vc8BF9c\">HK-015｜把专业服务中的餐食经验带回日常</h2><h2 id=\"doxcn0Jmw78X4bld7j0FB8fzmSd\">HK-016｜让做饭的人感到自己的精力也被考虑</h2><h1 id=\"doxcn6Kfl45gXz3z4uh2Ymvjbih\">候选规律</h1><h2 id=\"doxcnr4ZtYzzf4lhQcFe4ZtDbqc\">标题机制继续引用</h2><h2 id=\"doxcneVEmNK3X3xIdHVJ59rn7MC\">正文用具体生活细节增加相关性｜HK-005/009/011</h2><h2 id=\"doxcnwvSbmHGsRgiIGIqfG04Kae\">正文中后段继续给尝试理由｜HK-001/010/011</h2><h2 id=\"doxcnpNODSriAfyk0fPN88PLVwu\">画面先让人想吃，再让人觉得能做｜HK-001/006/009</h2><h2 id=\"doxcngz1MDeR6CLZAZlWB6RBy6f\">图组靠持续新增选择留人｜HK-001/010/014</h2><h2 id=\"doxcnDT7e1OKgIQbIU7Ovq5K7qh\">正文和图片补足不同的选择信息｜HK-003/007/011</h2><h2 id=\"doxcnvmn5tsBhisdbJVSpbKTYqh\">工具从识别对象推进到安排关系｜HK-008/012/013</h2><h2 id=\"doxcnVve3uer7366FtMNWzN0SZc\">保存和分享来自具体使用情境｜HK-005/007/014</h2><h1 id=\"doxcnMpMJnaLMRnEJkS8mAjJu2f\">单条观察</h1><h1 id=\"doxcnGABhVbcyXaPjPVr9mm7TIh\">待确认</h1><h1 id=\"doxcn70tYwD5eWPUBUe2EJjh5Qd\">已删除</h1><h1 id=\"doxcndTLus88VSqc3qe0ND1EBOg\">写作时如何使用</h1><h2 id=\"doxcnYbh2zCm4g2xZd4ZcZy8qHe\">critique与本轮复查</h2></outline></fragment>",
+      "document_id": "HchddU8xgodC7sx5NsycgYq1nFh",
+      "revision_id": 12
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.68",
+      "latest": "1.0.97",
+      "message": "lark-cli 1.0.97 available, current 1.0.68, run: lark-cli update"
+    }
+  }
+}
