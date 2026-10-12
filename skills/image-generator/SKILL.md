@@ -7,7 +7,7 @@ description: "按已批准 Image Brief 制作用户选定整组中的内页，�
 
 每次续做先执行 `../content-writer/references/resume-contract.md`，回读飞书执行状态及实际材料；封面形式与A/B方案身份分开，沿用已完成研究，按当前节点补齐具体依赖。
 
-本 Skill 负责用户选定整组中的内页的生产，不重新决定选题或擅改已批文案。
+本 Skill 负责通用封面模式下获批A/B第二页比较样张，以及用户选定整组中其余内页的生产，不重新决定选题或擅改已批文案。
 
 规划、提示词与实图验收统一执行 [封面与配图统一验收](references/acceptance.md)。切入角度、品牌一致性及信息对应必须在各自阶段核对，不能等用户发现问题后才补。公众号读取 `../wechat-writer/SKILL.md`，在正文之后规划配图。
 
@@ -15,9 +15,11 @@ description: "按已批准 Image Brief 制作用户选定整组中的内页，�
 
 输入必须包含获批的对应方案/页码、已存飞书单图/整组分析的链接与版本、实际原图、Image Brief、Creative Brief 末尾获批文字、用户确认记录及账号已确认视觉要求。逐项执行 `../content-writer/references/brief-approval.md` 的审批和 `../content-writer/references/production-review.md` 的生产与交付规则。旧设计条款与用户最新统一风格要求冲突时，以当前用户已确认风格为准；尚未制定的品牌风格不能声称已锁定。
 
+小红书每批内页生成前必须执行 `../content-writer/references/interior-gate.md` 和其检查脚本；缺用户整组选模证据、混入其他模板、页序或信息结构不符时不得调用生成工具。A/B第二页仅按samples路径制作，不能借样张授权生成整组。
+
 实际生成使用 `imagegen` Skill 和工具；每张提示词定稿后 critique，生成后查看实际图像、逐字核对获批文案，再按 `stage-critique.md`（位于 content-writer/references）验收内容、细节与整组关系。未通过修复再继续下一张，不能拿提示词正确替代成图检查。
 
-封面入口只生成获批候选，等待用户选定；内页入口只生成所选整组。实际图片按原有主项目归档和飞书交付规则保存；不另建本地内容文档。
+通用封面模式执行 `../content-writer/references/production-review.md` 的“通用封面下的A/B内页选择”：cover-generator制作通用封面，image-generator在整组选择前仅生成A/B各自已批第二页比较样张，合并展示供用户选定；其余内页只生成用户明确选择的整组。通用封面通过不能代替整组对标选择。实际图片按原有主项目归档和飞书交付规则保存；不另建本地内容文档。
 
 ## 原图到实图的模仿验收（严格执行）
 

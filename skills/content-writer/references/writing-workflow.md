@@ -22,8 +22,8 @@ flowchart TD
  H --> S["story-builder：真实场景与故事方案"]
  S --> F{"各平台正式制作"}
  F --> X["content-writer：小红书"]
- X --> X1["title-writer＋image-copy-writer<br/>两套内容→文字审查"]
- X1 --> X2["cover-generator→image-generator<br/>封面选择与内页"]
+ X --> X1["title-writer＋image-copy-writer<br/>两组完整对标适配<br/>通用封面＋A/B首张内容页文案→审查"]
+ X1 --> X2["cover-generator→image-generator<br/>对标封面选择／通用封面＋A/B第二页样张选择<br/>继承用户所选整组对标→剩余文案审批→剩余内页"]
  X2 --> XB["body-writer：正文与互动"]
  XB --> XP["product-amplify：按篇启用<br/>产品图＋正文搜索承接句；关闭则跳过"]
  XP --> X3["hashtag-writer：10个标签"]
@@ -45,7 +45,8 @@ flowchart TD
  T -.->|交接前增量回写| B
  RV -.->|新证据与组合表现| B
  style B fill:#dcfce7,stroke:#15803d
- style H fill:#dbeafe,stroke:#2563eb,stroke-width:3px
+ style H fill:#dcfce7,stroke:#15803d
+ style X2 fill:#dbeafe,stroke:#2563eb,stroke-width:3px
  style RS fill:#fef3c7,stroke:#b45309
  style I fill:#fef3c7,stroke:#b45309
  style G fill:#fef3c7,stroke:#b45309
@@ -64,6 +65,8 @@ flowchart TD
 当前已落实：正文三部分规则组合；正文与评论钩子的交付结构，产品承接按篇启用并由product-amplify提供；对标逐句语气与文本结构映射；逐句四项 critique 和逐模块放行；图文互补与评论逆向提问。`hashtag-writer` 已拆分并固定10个；取消固定求赞。搜索关键词与标签的强制映射已确认，下游环节继续逐项细调。妈妈善食统一封面标准已确认，读取 pregnabite-writing 的飞书规范与标准图，不从新对标自动更换。
 
 ## 当前流程修正位置
+
+2026-10-12：当前优化J图片生产节点，通用封面与A/B第二页样张展示后明确选模；每批内页检查真实选择证据、唯一整组来源与逐页结构。保持其余总流程不变。
 
 2026-10-10当前细调：hook-generator以整篇标题、完整正文和整组图片资料为分析单位，正文中后段与图片的独立钩子、各载体配合关系进入同一协议；pattern-extractor、content-planner统一引用。妈妈善食飞书钩子库保留16条标题原话，13篇补完整正文及已有整组图片分析，22处正文原话逐条核对；B11两图、B42三图另看原图，其余明确引用已有分析。3条保留为片段线索。实际效果、候选数量与评分仍待细调。本轮不改变已确认的平台生产顺序。
 
@@ -111,10 +114,10 @@ research-core 维护通用调研，pregnabite-research 维护主题范围与资�
 | 指定题从topic-generator第二轮开始；定向研究至少3篇、至少1篇新增入库（小红书，定向采集不自动分析）；writer复用并定向补缺 | topic-generator；用户明确单篇豁免仅限该篇 |
 | 对标分析原位保存、准确需求回写、形式分类、知识核验及正文互补 | pattern-extractor/references/benchmark-analysis.md、audience-report |
 | 每篇写前实际读取已存分析；继承逐页功能、信息关系和数量，再查证选材 | image-copy-writer 前置门槛及信息需求规则 |
-| A/B 两组独立全套内容；更换整组重新适配 | production-review.md 两套内容方案验收 |
+| A/B 独立对标与首张内容页候选；选定后仅展开所选整组 | production-review.md 两套内容方案验收 |
 | 3个不同发布标题分别模仿3个来源；小红书20汉字以内；图片标题增强、人群标签 | title-writer、xiaohongshu-writing |
 | 搜索词引用洞察词表；产品具体说法复核；Brief末尾全量图片文字获批后出图 | brief-approval.md |
-| 封面选择后生成所选内页；分析、原图、获批文本与实图逐页核对 | cover-generator、image-generator |
+| 样张选模后继承同一对标，剩余文案获批再出图；逐页核对 | cover-generator、image-generator |
 | 正文补充图片，逐句模仿；正文与评论钩子完整；启用时含产品承接；逐句四项审查 | body-writer、writing-core、stage-critique.md |
 | 评论有自身点赞/回复证据，用于补充写法与反推互动；强制Emoji、无固定求赞；恰好10个标签 | writing-core、xiaohongshu-writing、hashtag-writer |
 

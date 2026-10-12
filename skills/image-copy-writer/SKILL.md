@@ -15,7 +15,7 @@ description: "为已确认选题的 A/B 图文方案编写封面及内页实际�
 
 必读通用包 `../writing-core/SKILL.md`；平台为小红书时读 `../xiaohongshu-writing/SKILL.md`；妈妈善食主题读 `../pregnabite-writing/SKILL.md`。其他平台或主题引用实际存在的包/确认来源，不能套用妈妈善食规则。记录本次组合与实际来源。
 
-按各自对标的信息关系分别写 A/B 全套实际文字；标题调用 `../title-writer/SKILL.md`，正文按三部分写作要求执行。每块及每页写完立即 critique，再写下一模块；整组另审信息推进、重复、图片与发布正文分工。评论挂件词和角度按 `writing-core` 处理，不让评论更改主线。
+通用封面模式先读取A/B完整分析并判断适配，只分别写首张内容页（成稿P02）；用户选定后沿用上一步所选对标，再完成该套剩余实际文字，不展开未选方案。对标结构封面模式沿用A/B全套文案要求；标题调用 `../title-writer/SKILL.md`，正文按三部分写作要求执行。每块及每页写完立即 critique，再写下一模块；整组另审信息推进、重复、图片与发布正文分工。评论挂件词和角度按 `writing-core` 处理，不让评论更改主线。
 
 输出及审批执行 `../content-writer/references/brief-approval.md`：全量上图文字在飞书 Creative Brief 最后维护，Image Brief 逐页引用，用户批准后才交生成。两套内容验收引用 `../content-writer/references/production-review.md`，不复制规则。
 
