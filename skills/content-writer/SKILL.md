@@ -234,6 +234,8 @@ PregnaBite按2026-09-24用户确认，以孕妈各类问题为内容探索范围
 
 ### 初稿开头：基于研究和已存分析形成 Creative Brief
 
+展示执行 [Creative Brief 简版呈现](../content-planner/references/content-package.md#creative-brief-简版呈现严格执行)：下列字段用人能直接读懂的自然语言讲清本篇决策，不限定句数；字段定义及示例用于核对信息，不作为长段落输出模板。详细依据与对标拆解引用对应章节，末尾完整图片预设文本保留。
+
 每次内容初稿先读取 [Creative Brief 与图片文案审查](references/brief-approval.md)，列出下方 9 个字段，再展开标题、场景、信息路径、对标映射与 Image Brief；全部图片预设文本统一放在 Creative Brief 最后供用户审批。Creative Brief 是制作依据，不进入读者可见正文。字段必须来自用户原话、已确认的调研结论或实际读过的对标；不得用惯用模板静默补齐。
 
 ```markdown

@@ -6,7 +6,7 @@
 
 一句话识别账号/主题、指定题与否、内容目标及断点。读取workspace-initializer确认的多平台选择，不默认三平台；用户明确限定本轮范围时遵从。
 
-完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner统一内容包与Creative Brief → hook-generator → story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
+完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner构建内容包与Creative Brief（初期即调用hook-generator，共同确定具体钩子及内容展开，写前复查）→ story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
 
 Topic Generator第二轮验证题意、答案依据、内容可展开性并寻找相近参考；完成后交策划师，不另设content-research重复研究。已有同轮研究复用补缺。独立模块只运行指定模块，续做恢复当前步骤，不从头重跑。
 
@@ -15,6 +15,8 @@ Topic Generator第二轮验证题意、答案依据、内容可展开性并寻�
 以 radar_mode=on/off 保存流程选择，随任务交接；优先采用用户本轮明确选择，其次工作间已保存选择。2026-10-09 用户确认“妈妈善食”流程默认 off，之前试跑雷达不视为启用配置。其他流程首次未配置时询问开启或关闭，已有选择不重复询问。用户明确单独调用雷达仅启用该次，不自动修改长期配置。
 
 off 时跳过 topic-radar，直接进入 audience-report；不创建、更新或要求读取热点报告，不因报告缺失/过期阻塞，不恢复旧雷达补查待办。记录 radar_status=skipped_by_config，保留历史报告。用户重新开启后才恢复雷达步骤。已有新鲜资料可以作为普通相关证据使用，不因此隐式启动扫描。需求验证、搜索词研究、事实核验与每题新增对标照常执行。
+
+on 时传入工作间 `radar_sources`，来源平台与 `selected_platforms` 分发平台独立。按 [社媒来源与平台适配协议](../../topic-radar/references/social-sources.md) 调度固定博主、关键词/话题发现及各平台断点；官方资料仅作事实核验。平台采集状态、扫描状态、素材入档状态分别返回，不能因某个平台缺写作包跳过采集，也不能因规则已支持就声称已接通。没有来源配置时复用用户明确范围，否则补问；不静默以新闻扫描代替。
 
 ## 独立对标库工作流
 

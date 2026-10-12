@@ -9,6 +9,8 @@ description: "跨主题写作调研方法包；组合账号研究主题包和当
 
 ## 入口配置
 
+涉及社媒网页操作，先执行 [浏览器固定入口与恢复](references/browser-route.md)：小红书和公众号统一默认browser-act，复用已验证会话；工具切换与失败处理不得由下游模块另定。
+
 读取writing-router传入的工作间配置；飞书/Obsidian的实际读写位置按 [存储适配](../workspace-initializer/references/storage.md) 解析，领域资料与研究方法不随后端复制一份。
 
 先确定 account_root、平台、内容形式、指定题/选题生成/平台衍生、问题原意及已有研究。读取账号定位、洞察和相关素材；主题未确定时提出语义路由供确认，不以“孕妇”等单词自动绑定账号。

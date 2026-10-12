@@ -15,6 +15,8 @@ workspace-initializer是本入口内部调用的初始化子模块，不作为�
 
 ## 后续：调度内容协作
 
+网页调研工具及断点恢复统一按 [research-core浏览器固定入口](../research-core/references/browser-route.md) 执行，将已验证浏览器会话与读取范围交给下游；不因切换Skill或新会话重新选浏览器。
+
 涉及需求、选题或对标研究时先加载 `../research-core/SKILL.md`，再组合当前平台研究规则与研究主题包；妈妈善食用 `../pregnabite-research/SKILL.md`。写作包和研究主题包分别加载，不让领域搜索词进入通用方法。
 
 完整新写作与独立模块的调度先执行 [三层调度与恢复](references/orchestration.md)，按其中 radar_mode 开关执行；妈妈善食流程默认关闭热点雷达。

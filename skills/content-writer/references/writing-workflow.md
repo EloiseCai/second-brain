@@ -17,7 +17,8 @@ flowchart TD
  P --> PA["product-amplify：启用篇的功能证据与承接规划<br/>故事类在分镜定稿前完成解决方案融入"]
  PA -.-> S
  P --> PL["知识型／故事型／产品型<br/>长文、短图文、短漫画、视频等"]
- PL --> H["hook-generator：当前细调<br/>整篇标题＋完整正文＋整组图片<br/>独立钩子与配合关系→落点与兑现→critique"]
+ P <--> H["hook-generator：策划初期共同构建（本轮已调整）<br/>具体钩子表达→吸引理由→引入与内容兑现<br/>整篇对标参考＋写前critique"]
+ PL --> H
  H --> S["story-builder：真实场景与故事方案"]
  S --> F{"各平台正式制作"}
  F --> X["content-writer：小红书"]
