@@ -5,9 +5,11 @@ description: "分阶段读取定位、选题、素材和规律，基于真实需
 
 # 航海笔记助手
 
+制作与恢复先执行[逐条制作与独立稿协议](../writing-router/references/serial-production.md)，确认本篇是队列中唯一当前稿，并读取本篇独立文档及Creative Brief。完整走完下列适用模块和M验收归档后才能进入下一条内容；等待审查不自动切换其他稿。
+
 ## 平台与账号入口
 
-正式写作前接收content-planner内容包、统一Creative Brief及本分支的钩子/场景方案。Creative Brief共用定义由 `../content-planner/references/content-package.md` 维护；本文的字段说明用于小红书具体落实，不另建共用策划副本。研究由topic-generator交接：指定题从第二轮开始，未指定题从第一轮开始。
+正式写作前接收content-planner内容包、本稿独立Creative Brief及本分支的钩子/场景方案。Creative Brief共用定义由 `../content-planner/references/content-package.md` 维护；本文的字段说明用于小红书具体落实，不另建共用策划副本。研究由topic-generator交接：指定题从第二轮开始，未指定题从第一轮开始。
 
 先按 [writing-router](../writing-router/SKILL.md) 核对平台、载体、账号与断点。本文件的图片生产、20字标题、10个标签、Emoji与短正文容量属于现有小红书图文分支；公众号长文转入 [wechat-writer](../wechat-writer/SKILL.md)，不继续执行小红书生产步骤。营养、妈妈善食资料及本机归档绝对路径只适用于相应账号和已核验机器。其他账号必须绑定自己的资料与路径；尚未完成去专属化的研究模块须核对来源作用域，不能默认任意账号已支持。
 

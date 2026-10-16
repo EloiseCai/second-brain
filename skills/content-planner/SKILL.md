@@ -1,9 +1,11 @@
 ---
 name: content-planner
-description: "选题确定后策划跨平台内容包，统一Creative Brief，区分知识型、故事型、产品型的读者价值、切入与呈现方向，再交钩子和平台写作模块。"
+description: "选题确定后策划跨平台内容包，逐稿独立Creative Brief，区分知识型、故事型、产品型的读者价值、切入与呈现方向，再交钩子和平台写作模块。"
 ---
 
 # 内容策划师
+
+执行[逐条制作与独立稿协议](../writing-router/references/serial-production.md)。内容包统一规划共同资料、拆篇与生产顺序；正式制作一次一条，每篇在自己的文档中维护独立Creative Brief。策划多条不意味着同时写多稿，下一稿须等当前稿完整制作、验收和归档后启动。
 
 通用策划方法由本Skill维护，业务资料统一读取当前主题包及其资料引用；执行 [内容包与文档交接](references/content-package.md)。只策划本轮范围内的内容，不自动把全部平台方案制作发布。
 
@@ -15,13 +17,13 @@ description: "选题确定后策划跨平台内容包，统一Creative Brief，�
 
 读取 writing-router/references/routes.json 区分当前可制作分支与施工分支。常规制作按本轮选定的 ready 分支策划；用户明确要求探索或细调其他分支时可继续规划，但不得报告为已跑通。
 
-在已选存储后端为该题查重建立内容包，准备共用Creative Brief。读取topic-generator第二轮研究交接，读取工作间已确认的selected_platforms规划。发现关键证据或参考缺口时定向返回第二轮补查，不另起一轮重复研究。
+在已选存储后端为该题查重建立内容包，准备共用事实索引与逐稿制作队列；各稿Creative Brief在本稿独立文档中完成。读取topic-generator第二轮研究交接，读取工作间已确认的selected_platforms规划。发现关键证据或参考缺口时定向返回第二轮补查，不另起一轮重复研究。
 
-## P2 统一 Creative Brief
+## P2 各稿独立 Creative Brief
 
 Pain必须按 [场景协议](../research-core/references/scene-contract.md) 找到触发时刻、当时动作和具体阻碍，并以自然语言写清它们的关系；知识型、图文和产品型同样执行。三项原始证据与缺口留在问题卡，Brief通过Evidence引用，不另增一套表。示例与真实需求分开，来源未说明的细节不补造。P5交接前逐项回到来源核对，而非只检查Brief内部自洽。
 
-共用字段与定义见内容包协议，所有平台都要有。先形成共用主题、场景与承诺，再用平台/类型方案承接具体变化。平台生产顺序可不同，不能导致公众号缺少Creative Brief，也不复制出互相漂移的共用版本。
+共用字段与定义见内容包协议。每个平台、形式和篇次在各自文档填写完整Brief，独立决定本稿承诺、结构、对标和产品开关；共同事实引用原位置，内容包登记各稿链接。
 
 展示严格执行 [Creative Brief 简版呈现](references/content-package.md#creative-brief-简版呈现严格执行)：保留9项决策，用自然、清楚、简洁有力的语言表达，不限定句数；详细研究与拆解用链接引用；完整待审图片文案和产品原句按原审批要求保留。
 

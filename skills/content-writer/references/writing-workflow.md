@@ -1,5 +1,7 @@
 # 写作总流程与细调位置
 
+跨平台、形式和系列篇次按[逐条制作协议](../../writing-router/references/serial-production.md)执行：内容包统一策划，每稿独立文档与Creative Brief，当前稿全部制作、审查和归档完成后才进入下一稿。下图分支表示可选路径，不能同时推进多条；发布后复盘单独记录。
+
 本图是流程细调期间唯一维护的总图。状态表示规则细调进度，不表示当前文章已经生成。“已确认”只表示节点方向获确认，节点内旧参数仍须按下方待核对项区分，不能当作全部逐条获批。每轮保持节点和整体范围，更新细调位置；不以当前模块局部图替代。所有生产模块均执行“写/生成 → critique → 修改复查 → 放行”；图片文本、发布正文和出图提示词各自至少三轮，详见 three-pass-review.md。
 
 ```mermaid
@@ -13,14 +15,14 @@ flowchart TD
  B --> T["topic-generator 通用模块＋主题包<br/>未指定：第一轮→用户选择→第二轮<br/>已指定：直接第二轮"]
  T -.-> C["content-collector：第二轮至少新增1篇<br/>定向采集，不自动调用pattern-extractor"]
  C -.->|采集结果交回第二轮| T
- T --> P["content-planner<br/>统一Creative Brief、内容包、信息量与拆篇规划"]
+ T --> P["content-planner<br/>内容包、信息量与拆篇规划<br/>共同资料＋各稿独立Brief"]
  P --> PA["product-amplify：启用篇的功能证据与承接规划<br/>故事类在分镜定稿前完成解决方案融入"]
  PA -.-> S
  P --> PL["知识型／故事型／产品型<br/>长文、短图文、短漫画、视频等"]
  P <--> H["hook-generator：策划初期共同构建（本轮已调整）<br/>具体钩子表达→吸引理由→引入与内容兑现<br/>整篇对标参考＋写前critique"]
  PL --> H
  H --> S["story-builder：真实场景与故事方案<br/>素材身份→事件与变化→读者所得→载体协同→验收"]
- S --> F{"各平台正式制作"}
+ S --> F{"队列中仅当前一稿<br/>独立文档与Creative Brief<br/>选择对应平台制作"}
  F --> X["content-writer：小红书"]
  X --> X1["title-writer＋image-copy-writer<br/>两组完整对标适配；图片文案三轮复核<br/>通用封面＋A/B首张内容页文案→审查"]
  X1 --> X2["cover-generator→image-generator<br/>提示词三轮复核→逐张并排验收<br/>对标封面选择／通用封面＋A/B第二页样张选择<br/>继承用户所选整组对标→剩余文案审批→剩余内页"]
@@ -36,6 +38,7 @@ flowchart TD
  X4 --> Z["整篇验收→已选后端交付与图片归档"]
  W3 --> WP["product-amplify：按篇启用<br/>文末产品承接；关闭则跳过"]
  WP --> Z
+ Z -.->|本稿制作完成，下一稿独立准备| F
  Z --> RV["review：发布后复盘"]
  K["独立对标建库任务<br/>content-collector→pattern-extractor"] --> DB["对标素材／规律库"]
  DB -.->|钩子原话与机制| H

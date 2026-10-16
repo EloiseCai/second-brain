@@ -1,5 +1,7 @@
 # 三层调度与文档交接
 
+多平台和多形式执行[逐条制作协议](serial-production.md)：可统一策划内容包，正式生产按队列逐稿完成。下文“各平台”“双形式”表示规划范围，不表示并行制作；每稿的独立文档、Creative Brief和放行条件以该协议为准。
+
 ## 顶层：writing-router
 
 用户统一进入writing-router；其第一步内部执行workspace-initializer或读取已有配置；configured与素材门production_ready分开。用户DIY覆盖在本工作间保存，router合并生成当前有效步骤，不修改共享基线。

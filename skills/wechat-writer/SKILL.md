@@ -5,6 +5,8 @@ description: "公众号知识型长文固定流程；由 writing-router 恢复�
 
 # 公众号知识型长文
 
+进入WX1前执行[逐条制作与独立稿协议](../writing-router/references/serial-production.md)，恢复内容包唯一当前稿。公众号长文与同平台贴图、其他平台成稿分别建文档、维护自己的Creative Brief；WX3在本稿文档完成，WX7制作验收归档后才可制作队列下一稿。WX8发布复盘独立记录。
+
 2026-10-07 用户确认当前 WX1—WX8 为暂定固定基线。流程确认与实际公众号发布验收分开；以后继续直接恢复断点，不重新询问已经确认的顺序。字段与阶段放行执行 [执行与续做协议](references/execution.md)。
 
 找对标先读取 [公众号调研协议](references/research.md)，组合 research-core 与当前研究主题包。母婴写作包不替代研究主题包。
@@ -35,7 +37,7 @@ description: "公众号知识型长文固定流程；由 writing-router 恢复�
 
 1. **WX1 任务恢复与选题**：确认账号、公众号知识型长文及指定题/选题生成。指定题调用topic-generator从第二轮开始；未指定题由其从第一轮生成候选并选择。研究完成后统一进入content-planner。换平台创建独立稿，不改原平台文章。
 2. **WX2 定向调研与对标分析**：由topic-generator第二轮完成并经内容包交接；完整研究公众号正文、图片、具体角度及推进，引用已存分析；需入库或补分析时调用 content-collector、pattern-extractor。已核验事实可复用，本平台研究仍需完成。同平台续做沿用已完成研究，不重复发散。
-3. **WX3 统一 Creative Brief 的公众号执行映射**：读取content-planner内容包及hook-generator/story-builder结果；共用字段定义遵循 `../content-planner/references/content-package.md`，本步骤补充公众号方案，从公众号正文对标确定核心承诺、信息顺序、论据、例子、转场、产品和互动；关键词与产品核定引用 content-writer/references/brief-approval.md 的适用章节。保留已有候选及选择节点，已选不重选。此时不锁定图片数量、逐页文字或用预先图片容量裁剪正文。
+3. **WX3 本稿独立 Creative Brief**：读取content-planner内容包及hook-generator/story-builder结果；共用字段定义遵循 `../content-planner/references/content-package.md`，本步骤补充公众号方案，从公众号正文对标确定核心承诺、信息顺序、论据、例子、转场、产品和互动；关键词与产品核定引用 content-writer/references/brief-approval.md 的适用章节。保留已有候选及选择节点，已选不重选。此时不锁定图片数量、逐页文字或用预先图片容量裁剪正文。
 4. **WX4 标题与完整正文**：调用 title-writer、body-writer，组合 writing-core、本包和主题包；先写开头、完整主体、产品承接、评论钩子，逐句 critique，修改复查。正文须独立兑现标题承诺，不能把关键答案留给未制作图片。标题与正文一起供用户审阅；保留本篇已约定的审稿节点，不增设逐段审批。
 5. **WX5 根据正文规划配图**：读取当前正文及对应对标的图文分析，逐处判断需要解释、对比、示范或总结的位置，记录段落位置、配图作用、形式、信息关系、数量与文字。正文表格与图片分开登记。图数由正文需要和参考结构共同决定，不按小红书固定页数。两套独立对标及候选要求在配图阶段执行，不充当正文起笔条件；已完成研究直接引用。用到某一图的结构时，仍先读取原分析、确定该图信息关系与容量，再写该图文字，不把旧文案硬塞进去。
 6. **WX6 图片文案审查与生成**：调用 image-copy-writer，图片标题调用 title-writer。按 brief-approval.md 将完整预设文字置于 Image Brief 末尾，critique 后送审；获批才调用 cover-generator、image-generator，保留封面选择节点。封面内容以实际正文及发布标题为依据，风格引用账号规范。每图比对获批文字和正文，检查品牌、间距、可读性及事实。
@@ -46,7 +48,7 @@ description: "公众号知识型长文固定流程；由 writing-router 恢复�
 
 续做记录：当前 WX 阶段、正文版本及审查状态、正文主对标、配图是否已规划、图片文字批准范围、下一动作。正文未完成时，下一步不得写为封面生成；图片方案未审不妨碍 WX4 正文写作。规则调整不自动批准任何候选或正文。
 
-总图引用 `../content-writer/references/writing-workflow.md`，公众号与小红书并行分支。
+总图引用 `../content-writer/references/writing-workflow.md`，公众号与小红书为可选制作分支，按队列逐稿完成。
 
 ## 用户洞察增量交接
 
