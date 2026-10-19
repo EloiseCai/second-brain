@@ -15,13 +15,13 @@ description: "漫画内容的完整制作与断点调度。漫画创作、改稿
 
 ## 底座与逐节点交接
 
-实际写作顺序固定为：已有任务目标与真实素材、3篇漫画故事对标采集分析 → story-builder＋product-amplify联合完整故事（首稿含产品） → 漫画对标适配与完整Brief → 分镜和短框文案。账号、主题、产品开关等已有输入由入口恢复，不以完成漫画Brief或先写钩子作为整体故事的前置条件。已有对标库和选题研究仍可复用；具体漫画表达在故事成立后确定。
+实际写作顺序固定为：已有任务目标与真实素材 → story-builder＋product-amplify联合完整故事（首稿含产品） → 漫画对标适配与完整Brief → 分镜和短框文案。账号、主题、产品开关等已有输入由入口恢复，不以完成漫画Brief或先写钩子作为整体故事的前置条件。已有对标库和选题研究仍可复用；具体漫画表达在故事成立后确定。
 
 执行[主题补充协议](../writing-router/references/topic-overlay.md)：通用方法在底座，账号资源和专属要求在主题包，某篇的选择在该篇Brief。每个节点读取相应补充资料并保存实际输出，不能用“已读Skill”标完成。
 
 | 节点 | 底座与实质输出 |
 | --- | --- |
-| ① 洞察取材与选题研究 | research-core、audience-report、topic-generator及研究主题包；触发时刻、动作、阻碍、已有后续和原始来源。沿用指定题第二轮、未指定题两轮及雷达开关；content-collector → pattern-extractor完成3篇漫画故事对标采集分析（至少1篇本轮新增），知识图文不计数。 |
+| ① 洞察取材与选题研究 | research-core、audience-report、topic-generator及研究主题包；触发时刻、动作、阻碍、已有后续和原始来源。沿用指定题第二轮、未指定题两轮及雷达开关。 |
 | ② 整体产品故事首稿 | story-builder＋product-amplify联合执行[主线、节奏与信息预算](../story-builder/references/story-arc-and-density.md)。先匹配真实困境与产品行动，再写起承转合，第一稿包含实际产品承接与可证实的帮助。关闭产品时仅story-builder。不能将纯经历初稿标完成。 |
 | ③ 漫画对标适配 | content-collector、pattern-extractor复用完整漫画原图和规律，定向补缺；不能用普通图文Tone reference。 |
 | ④ 漫画改编策划 | content-planner、hook-generator以联合故事为输入形成独立Brief、开场钩子和逐页信息预算，不先套页格倒推故事。 |
@@ -33,7 +33,7 @@ description: "漫画内容的完整制作与断点调度。漫画创作、改稿
 | ⑩ 整包交付 | content-writer整篇验收与图片归档、回写绑定后端；核对最终文案与实际图片一致，交付和发布分别记录。 |
 | ⑪ 发布后复盘 | review；用实际发布数据复盘，回流洞察与规律；无数据保持待执行。 |
 
-①执行[指定题第二轮研究](../topic-generator/references/second-round.md)，在交接中分别记录同题内容依据与漫画表达对标。用户给题不跳过平台定向调研。②写故事前必须取得①的3篇漫画故事对标及分析，回看事件推进、预期与转折，③再完成逐页表达适配；③位于②之后不代表②可以不参考漫画。只有逐页分析而未现场查看原图时如实说明阅读范围。缺少①证据时退回①补查，不能以故事已获部分认可倒推调研完成。
+①严格执行[topic-generator原有第二轮研究](../topic-generator/references/second-round.md)：至少完整阅读3篇独立相关笔记，本轮至少1篇新增，调用content-collector完整采集，由topic-generator自身完成内容与呈现方式拆解及交接；不新增强制pattern-extractor调用，不另设3篇必须都是漫画的门槛。③继续承担原有漫画表达适配。未完成①的实质研究，不得因已有故事稿或规则文件而标完成。
 
 ## 漫画专属执行
 
