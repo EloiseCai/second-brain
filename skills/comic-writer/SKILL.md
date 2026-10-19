@@ -21,9 +21,9 @@ description: "漫画内容的完整制作与断点调度。漫画创作、改稿
 
 | 节点 | 底座与实质输出 |
 | --- | --- |
-| ① 洞察取材与选题研究 | research-core、audience-report、topic-generator及研究主题包；触发时刻、动作、阻碍、已有后续和原始来源。沿用指定题第二轮、未指定题两轮及雷达开关；content-collector → pattern-extractor完成3篇漫画故事表达对标采集分析；topic-generator另按主题完成至少3篇相关笔记（本轮至少1篇新增），同篇符合两项可复用，知识图文不计入漫画表达对标。 |
+| ① 洞察取材与选题研究 | research-core、audience-report、topic-generator及研究主题包；取材保留触发时刻、动作、阻碍和来源。topic-generator按漫画类型与本题共同匹配同一组至少3篇对标（本轮至少1篇新增），自行完整阅读、拆解和交接；content-collector定向采集，此路径不调用pattern-extractor。 |
 | ② 整体产品故事首稿 | story-builder＋product-amplify联合执行[主线、节奏与信息预算](../story-builder/references/story-arc-and-density.md)。先匹配真实困境与产品行动，再写起承转合，第一稿包含实际产品承接与可证实的帮助。关闭产品时仅story-builder。不能将纯经历初稿标完成。 |
-| ③ 漫画对标适配 | content-collector、pattern-extractor复用完整漫画原图和规律，定向补缺；不能用普通图文Tone reference。 |
+| ③ 漫画对标适配 | comic-writer复用①同一组对标、原图与拆解，将②故事落实为漫画表达方向；不默认重新搜索、不另计3篇。原始材料缺失定向调用content-collector，确需独立深入分析时才调用pattern-extractor，不重复已完成研究。 |
 | ④ 漫画改编策划 | content-planner、hook-generator以联合故事为输入形成独立Brief、开场钩子和逐页信息预算，不先套页格倒推故事。 |
 | ⑤ 全量分镜与文案 | content-writer调用image-copy-writer及适用title-writer；逐页逐格画面、全部短框文字、转场、事实与对标映射、产品落点。提纲或首页不能代替整组文案。 |
 | ⑥ 文案复核与放行 | writing-core、平台包、主题包及content-writer现有复核与审批；核对连贯、产品匹配、事实及图文分工，不新增审批轮次。 |
@@ -33,7 +33,7 @@ description: "漫画内容的完整制作与断点调度。漫画创作、改稿
 | ⑩ 整包交付 | content-writer整篇验收与图片归档、回写绑定后端；核对最终文案与实际图片一致，交付和发布分别记录。 |
 | ⑪ 发布后复盘 | review；用实际发布数据复盘，回流洞察与规律；无数据保持待执行。 |
 
-①执行[指定题第二轮研究](../topic-generator/references/second-round.md)，在交接中分别记录同题内容依据与漫画表达对标。用户给题不跳过平台定向调研。②写故事前必须取得①的3篇漫画故事对标及分析，回看事件推进、预期与转折，③再完成逐页表达适配；③位于②之后不代表②可以不参考漫画。只有逐页分析而未现场查看原图时如实说明阅读范围。缺少①证据时退回①补查，不能以故事已获部分认可倒推调研完成。
+①执行[第二轮研究](../topic-generator/references/second-round.md)，类型和主题共同筛选同一组对标，由topic-generator承担实质拆解。②写故事前读取①的研究结果，③再复用它做漫画表达适配。缺少①证据就退回①补查，不能以已有故事或规则文档倒推调研完成。
 
 ## 漫画专属执行
 

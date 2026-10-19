@@ -8,7 +8,7 @@
 
 一句话识别账号/主题、指定题与否、内容目标及断点。读取workspace-initializer确认的多平台选择，不默认三平台；用户明确限定本轮范围时遵从。
 
-漫画顺序优先：取材与题意确定 → 按漫画故事形式完成至少3篇对标的content-collector采集与pattern-extractor分析 → story-builder＋product-amplify联合完成含产品动作与帮助的完整故事首稿 → 漫画对标适配 → content-planner与hook-generator完成改编Brief → 分镜文案 → 图片。具体调用和断点见[漫画完整流程](../../comic-writer/references/workflow.md)。产品开关先读用户已确认任务输入，再写入后续独立Brief，不要求先完成Brief才能写故事。
+漫画顺序优先：取材与题意确定 → topic-generator按漫画类型与本题共同匹配至少3篇对标、自行拆解，content-collector定向采集 → story-builder＋product-amplify联合完成含产品动作与帮助的完整故事首稿 → 漫画对标适配 → content-planner与hook-generator完成改编Brief → 分镜文案 → 图片。具体调用和断点见[漫画完整流程](../../comic-writer/references/workflow.md)。产品开关先读用户已确认任务输入，再写入后续独立Brief，不要求先完成Brief才能写故事。
 
 其他分支完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner构建内容包与Creative Brief（初期即调用hook-generator，共同确定具体钩子及内容展开，写前复查）→ story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
 
@@ -26,7 +26,7 @@ on 时传入工作间 `radar_sources`，来源平台与 `selected_platforms` 分
 
 专门收集/扩充对标：content-collector → pattern-extractor → 对标素材与规律库（交接前执行audience-report统一写入关口）。这条独立流程不作为每篇写作的必跑主线。
 
-单篇选题研究优先读库内原文和分析，仅围绕本题验证与选参考。正式采用库外材料时按既有授权完成必要入库/分析，缺什么补什么，不因此启动批量搜集或全库规律重提。小红书总计至少3篇、本轮至少1篇新增继续保留。topic-generator按主题选择至少3篇相关笔记；漫画表达另外需要3篇漫画对标，同篇双重符合时复用。调用content-collector定向采集及pattern-extractor对标分析，已有完整分析核对复用；知识型图文不能计入漫画表达对标。具体门槛执行topic-generator/references/second-round.md。
+单篇选题研究按当前类型与主题共同匹配同一组对标，小红书至少3篇、本轮至少1篇新增。topic-generator负责检索、完整阅读、内容与呈现方式拆解及方向交接，content-collector负责定向完整采集；此路径不调用pattern-extractor。已有同轮研究复用补缺，不另拆主题组和表达组。独立建库或后续深入分析才按实际任务调用pattern-extractor，不能把两条路径混为必跑主线。具体门槛统一执行topic-generator/references/second-round.md。
 
 ## 中层与底层
 

@@ -6,9 +6,9 @@
 
 ```mermaid
 flowchart TD
- A["① 取材与3篇漫画故事对标<br/>audience-report · research-core · topic-generator<br/>content-collector → pattern-extractor"]
+ A["① 取材与类型＋主题对标研究<br/>audience-report · research-core · topic-generator<br/>content-collector 定向采集"]
  B["② 写完整产品故事<br/>story-builder ＋ product-amplify 联合"]
- C["③ 漫画对标的分镜与短框适配<br/>content-collector · pattern-extractor"]
+ C["③ 漫画表达适配：复用①对标<br/>comic-writer"]
  D["④ 漫画Brief、信息预算与钩子<br/>content-planner · hook-generator"]
  E["⑤ 完整分镜与每页短框文字<br/>comic-writer · content-writer · image-copy-writer"]
  F["⑥ 文案复核与确认<br/>content-writer · writing-core"]
@@ -21,7 +21,7 @@ flowchart TD
 ```
 
 
-comic-writer串联底座，每个节点加载主题补充。节点不新增审批；详细模块见[主文件](../SKILL.md)。①沿用雷达开关，topic-generator按主题完成至少3篇相关笔记（本轮至少1篇新增）；同时完成至少3篇漫画表达对标的完整采集和分析，同篇符合两项可复用，知识型图文不计入漫画表达对标。③复用①分析细化本篇分镜与短框，不把首次寻找漫画对标拖到故事写完之后。②按本稿产品开关联合写作，⑨按平台选配套，⑪需真实数据。②内部先明确主线及信息预算、匹配功能与使用记录，再联合落笔与复核；④按实际漫画对标锁定逐页预算。
+comic-writer串联底座，每个节点加载主题补充。节点不新增审批；详细模块见[主文件](../SKILL.md)。①沿用雷达开关，按漫画类型与本题共同匹配同一组至少3篇对标（本轮至少1篇新增），topic-generator自行拆解、content-collector定向采集，不调用pattern-extractor。③复用①研究和②故事进行漫画表达适配，不另设一组对标；材料或深入分析缺口才按主文件定向补齐。②按本稿产品开关联合写作，⑨按平台选配套，⑪需真实数据。②内部先明确主线及信息预算、匹配功能与使用记录，再联合落笔与复核；④按实际漫画对标锁定逐页预算。
 
 ## 状态记录
 

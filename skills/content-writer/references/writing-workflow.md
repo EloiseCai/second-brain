@@ -15,7 +15,7 @@ flowchart TD
  RS -->|关闭，直接进入| B
  R --> B["audience-report 通用模块＋主题包<br/>用户洞察与真实场景"]
  B --> T["topic-generator 通用模块＋主题包<br/>未指定：第一轮→用户选择→第二轮<br/>已指定：直接第二轮"]
- T -.-> C["content-collector → pattern-extractor<br/>按形式选3篇对标，至少1篇新增；完整采集分析"]
+ T -.-> C["content-collector：定向完整采集<br/>类型＋主题匹配同一组3篇，至少1篇新增<br/>topic-generator自行拆解，不调用pattern-extractor"]
  C -.->|采集结果交回第二轮| T
  T --> P["content-planner<br/>内容包、信息量与拆篇规划<br/>共同资料＋各稿独立Brief"]
  P --> PA["product-amplify：按稿启用＋主题产品资料<br/>困境→功能→动作→帮助→实际承接文字<br/>故事类在分镜定稿前完成交接（当前细调）"]
@@ -129,7 +129,7 @@ research-core 维护通用调研，pregnabite-research 维护主题范围与资�
 
 - 用户明确确认且已落实：三部分规则组合、对标信息关系、两套内容、Brief末尾文字审批、正文固定三部分、逐句模仿与 critique、固定10个标签、取消固定求赞。
 - 本轮新增模仿检查是对用户“标题与图片也需加强”的落实；不得声称已经通过实际写作质量测试。
-- 旧参数本轮已确认：三个不同成品标题分别模仿三个不同标题对标；小红书发布标题20汉字以内归平台包；正文对标篇幅约±100字只作参考，以适中讲清主题为准；第二轮总计至少3篇，其中本轮至少新增1篇对标并完成入库（现行按本篇形式采集并分析），writer复用不重跑。
+- 旧参数本轮已确认：三个不同成品标题分别模仿三个不同标题对标；小红书发布标题20汉字以内归平台包；正文对标篇幅约±100字只作参考，以适中讲清主题为准；第二轮总计至少3篇，其中本轮至少新增1篇对标并完成入库（现行类型＋主题共同匹配；定向采集，topic-generator自行拆解），writer复用不重跑。
 - 已确认：按现有位置和数量强制添加Emoji；采用的评论必须有评论自身的非零点赞或可核验回复，无互动不采用。
 - 已确认：搜索词与Hashtag逐项对应，来源及本篇回答位置可追溯；不再重复请求确认。本轮旧参数核对结束。
 - 实施细节（本轮未单独询问）：独立Skill名称、引用路径、句子ID/审查记录格式及同步方式。属于执行安排，不称为用户指定格式；不得据此要求用户填写更多表格。
@@ -142,7 +142,7 @@ research-core 维护通用调研，pregnabite-research 维护主题范围与资�
 | 已确认要求 | 唯一执行来源 |
 | --- | --- |
 | 语义路由、通用/平台/主题组合；写作与 critique 共同使用 | content-writer 模块路由、writing-core、xiaohongshu-writing、pregnabite-writing |
-| 指定题从topic-generator第二轮开始；定向研究至少3篇、至少1篇新增入库（小红书，按本篇形式采集并分析）；writer复用并定向补缺 | topic-generator；用户明确单篇豁免仅限该篇 |
+| 指定题从topic-generator第二轮开始；定向研究至少3篇、至少1篇新增入库（小红书，类型＋主题共同匹配；定向采集，topic-generator自行拆解）；writer复用并定向补缺 | topic-generator；用户明确单篇豁免仅限该篇 |
 | 对标分析原位保存、准确需求回写、形式分类、知识核验及正文互补 | pattern-extractor/references/benchmark-analysis.md、audience-report |
 | 每篇写前实际读取已存分析；继承逐页功能、信息关系和数量，再查证选材 | image-copy-writer 前置门槛及信息需求规则 |
 | A/B 独立对标与首张内容页候选；选定后仅展开所选整组 | production-review.md 两套内容方案验收 |
