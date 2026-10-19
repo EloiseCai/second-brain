@@ -8,7 +8,9 @@
 
 一句话识别账号/主题、指定题与否、内容目标及断点。读取workspace-initializer确认的多平台选择，不默认三平台；用户明确限定本轮范围时遵从。
 
-完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner构建内容包与Creative Brief（初期即调用hook-generator，共同确定具体钩子及内容展开，写前复查）→ story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
+漫画顺序优先：取材与题意确定 → 按漫画故事形式完成至少3篇对标的content-collector采集与pattern-extractor分析 → story-builder＋product-amplify联合完成含产品动作与帮助的完整故事首稿 → 漫画对标适配 → content-planner与hook-generator完成改编Brief → 分镜文案 → 图片。具体调用和断点见[漫画完整流程](../../comic-writer/references/workflow.md)。产品开关先读用户已确认任务输入，再写入后续独立Brief，不要求先完成Brief才能写故事。
+
+其他分支完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner构建内容包与Creative Brief（初期即调用hook-generator，共同确定具体钩子及内容展开，写前复查）→ story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
 
 Topic Generator第二轮验证题意、答案依据、内容可展开性并寻找相近参考；完成后交策划师，不另设content-research重复研究。已有同轮研究复用补缺。独立模块只运行指定模块，续做恢复当前步骤，不从头重跑。
 
@@ -24,9 +26,11 @@ on 时传入工作间 `radar_sources`，来源平台与 `selected_platforms` 分
 
 专门收集/扩充对标：content-collector → pattern-extractor → 对标素材与规律库（交接前执行audience-report统一写入关口）。这条独立流程不作为每篇写作的必跑主线。
 
-单篇选题研究优先读库内原文和分析，仅围绕本题验证与选参考。正式采用库外材料时按既有授权完成必要入库/分析，缺什么补什么，不因此启动批量搜集或全库规律重提。小红书总计至少3篇、本轮至少1篇新增继续保留。新增调用content-collector的定向采集模式，不自动调用pattern-extractor；逐页生产需要的结构分析按生产前置要求另行核对。
+单篇选题研究优先读库内原文和分析，仅围绕本题验证与选参考。正式采用库外材料时按既有授权完成必要入库/分析，缺什么补什么，不因此启动批量搜集或全库规律重提。小红书总计至少3篇、本轮至少1篇新增继续保留。按本篇形式选择3篇对标，调用content-collector定向采集及pattern-extractor对标分析，已有完整分析核对复用；漫画故事不能用知识型图文补数。具体门槛执行topic-generator/references/second-round.md。
 
 ## 中层与底层
+
+逐节点执行[通用底座与主题补充协议](topic-overlay.md)，用实际产物判定执行完成。产品开启时，策划初期即调product-amplify做问题与能力匹配；故事分镜定稿前回传具体承接文字，再交writer整合。不能直到结尾才临时找功能，也不能把读过模块当作执行完模块。
 
 中层是雷达、洞察、两轮选题、策划、钩子、故事和各平台writer。底层为各模块内部步骤和title-writer、image-copy-writer、body-writer、cover-generator、image-generator、hashtag-writer、pinned-comment-writer。
 
@@ -44,4 +48,4 @@ on 时传入工作间 `radar_sources`，来源平台与 `selected_platforms` 分
 
 ## 可选产品承接
 
-逐篇读取content-planner的product_mode。off跳过product-amplify；on按其载体协议执行图文产品图＋正文搜索句、公众号末尾话术、漫画故事中的产品解决方案。漫画故事在story-builder阶段准备出场方案，成稿前落实；图文/公众号在主体后落实，最终验收前完成。body-writer不重复生产产品段。
+逐篇读取content-planner的product_mode。off跳过product-amplify；on按其载体协议执行图文产品图＋正文搜索句、公众号末尾话术、漫画故事中的产品解决方案。漫画故事与story-builder同节点联合写作，首次交付即落实具体产品动作与帮助；图文/公众号在主体后落实，最终验收前完成。body-writer不重复生产产品段。

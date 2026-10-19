@@ -1,5 +1,5 @@
 {
-  "version": "0.8.1",
+  "version": "0.8.3",
   "status": "shared-workflow-ready-routes",
   "skills": [
     "workspace-initializer",
@@ -14,6 +14,7 @@
     "content-planner",
     "hook-generator",
     "story-builder",
+    "comic-writer",
     "topic-generator",
     "topic-radar",
     "audience-report",

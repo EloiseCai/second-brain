@@ -17,7 +17,7 @@
       "id": "story-comic",
       "label": "故事漫画",
       "status": "in_progress",
-      "skill": null
+      "skill": "comic-writer"
     },
     {
       "id": "douyin-video",

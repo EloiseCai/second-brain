@@ -11,6 +11,8 @@
 | audience / benchmarks / patterns | 洞察关键词、对标库、分析原位置 |
 | pinned_comment_benchmarks | 本账号评论区引流对标库链接；小红书 L2 调用 |
 | product / brand | 产品与品牌规范链接；无产品账号由用户确认适用结构 |
+| product_root / product_facts / product_copy_patterns / product_assets / product_usage_records | 产品资料目录、功能事实、承接规律、图库/截图、真实使用记录；主题包绑定实际入口，不能互相替代证据 |
+| topic_stage_bindings | 当前节点需要的主题补充及资料引用，按topic-overlay协议加载 |
 | platform_policy | 当前平台来源；账号自订限制另标范围 |
 | drafts / archive_root | 实际文档交付位置与图片归档根目录 |
 

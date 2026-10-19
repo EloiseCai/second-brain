@@ -2,6 +2,8 @@
 
 跨平台、形式和系列篇次按[逐条制作协议](../../writing-router/references/serial-production.md)执行：内容包统一策划，每稿独立文档与Creative Brief，当前稿全部制作、审查和归档完成后才进入下一稿。下图分支表示可选路径，不能同时推进多条；发布后复盘单独记录。
 
+本文件维护跨载体写作总图。漫画分支由 [comic-writer](../../comic-writer/SKILL.md) 串联，漫画任务每轮展示[固定漫画全流程图](../../comic-writer/references/workflow.md)，分别追踪规则细调与实稿执行；下文“唯一总图”指跨载体范围，不替代漫画专属总图。
+
 本图是流程细调期间唯一维护的总图。状态表示规则细调进度，不表示当前文章已经生成。“已确认”只表示节点方向获确认，节点内旧参数仍须按下方待核对项区分，不能当作全部逐条获批。每轮保持节点和整体范围，更新细调位置；不以当前模块局部图替代。所有生产模块均执行“写/生成 → critique → 修改复查 → 放行”；图片文本、发布正文和出图提示词各自至少三轮，详见 three-pass-review.md。
 
 ```mermaid
@@ -13,19 +15,20 @@ flowchart TD
  RS -->|关闭，直接进入| B
  R --> B["audience-report 通用模块＋主题包<br/>用户洞察与真实场景"]
  B --> T["topic-generator 通用模块＋主题包<br/>未指定：第一轮→用户选择→第二轮<br/>已指定：直接第二轮"]
- T -.-> C["content-collector：第二轮至少新增1篇<br/>定向采集，不自动调用pattern-extractor"]
+ T -.-> C["content-collector → pattern-extractor<br/>按形式选3篇对标，至少1篇新增；完整采集分析"]
  C -.->|采集结果交回第二轮| T
  T --> P["content-planner<br/>内容包、信息量与拆篇规划<br/>共同资料＋各稿独立Brief"]
- P --> PA["product-amplify：启用篇的功能证据与承接规划<br/>故事类在分镜定稿前完成解决方案融入"]
+ P --> PA["product-amplify：按稿启用＋主题产品资料<br/>困境→功能→动作→帮助→实际承接文字<br/>故事类在分镜定稿前完成交接（当前细调）"]
  PA -.-> S
  P --> PL["知识型／故事型／产品型<br/>长文、短图文、短漫画、视频等"]
  P <--> H["hook-generator：策划初期共同构建（本轮已调整）<br/>具体钩子表达→吸引理由→引入与内容兑现<br/>整篇对标参考＋写前critique"]
  PL --> H
- H --> S["story-builder：真实场景与故事方案<br/>素材身份→事件与变化→读者所得→载体协同→验收"]
+ H --> S["story-builder：真实场景与故事方案<br/>S1洞察取材→S2事件展开→S3读者所得<br/>S4漫画：对标适配→逐格表达<br/>当前细调：第一人称长文展开与身份边界<br/>S5共用事实、两版分别验收"]
+ B -.->|真实经历与来源交接；妈妈善食取孕妈经历| S
  S --> F{"队列中仅当前一稿<br/>独立文档与Creative Brief<br/>选择对应平台制作"}
  F --> X["content-writer：小红书"]
- X --> X1["title-writer＋image-copy-writer<br/>两组完整对标适配；图片文案三轮复核<br/>通用封面＋A/B首张内容页文案→审查"]
- X1 --> X2["cover-generator→image-generator<br/>提示词三轮复核→逐张并排验收<br/>对标封面选择／通用封面＋A/B第二页样张选择<br/>继承用户所选整组对标→剩余文案审批→剩余内页"]
+ X --> X1["title-writer＋image-copy-writer<br/>完整对标适配；图片文案三轮复核<br/>知识图文：按原封面与A/B路径<br/>已授权漫画试跑：P01直接开场、短文本框→审查"]
+ X1 --> X2["cover-generator→image-generator<br/>提示词三轮复核→逐张并排验收<br/>知识图文：选通用封面＋A/B内容页样张，或不选通用封面＋A/B对标P01<br/>用户选唯一整组→所选对标余页<br/>漫画：P01即封面，按已确认分镜试跑"]
  X2 --> XB["body-writer：正文与互动，三轮复核"]
  XB --> XP["product-amplify：按篇启用<br/>产品图＋正文搜索承接句；关闭则跳过"]
  XP --> X3["hashtag-writer：10个标签"]
@@ -42,14 +45,21 @@ flowchart TD
  Z --> RV["review：发布后复盘"]
  K["独立对标建库任务<br/>content-collector→pattern-extractor"] --> DB["对标素材／规律库"]
  DB -.->|钩子原话与机制| H
+ DB -.->|漫画候选规律与完整原图；按事件适配| S
  DB -.->|按题引用，缺项定向补齐| T
- D["主题包→内容包按章节交接"] -.-> P
+ D["主题补充包：逐节点加载资料与账号要求<br/>通用底座保持可迁移"] -.-> P
+ D -.-> PA
+ D -.-> S
+ D -.-> X
+ D -.-> W
+ D -.-> Z
  K -.->|洞察增量经统一关口| B
  T -.->|交接前增量回写| B
  RV -.->|新证据与组合表现| B
  style B fill:#dcfce7,stroke:#15803d
  style H fill:#dcfce7,stroke:#15803d
- style X2 fill:#dbeafe,stroke:#2563eb,stroke-width:3px
+ style X2 fill:#fef3c7,stroke:#b45309
+ style S fill:#dbeafe,stroke:#2563eb,stroke-width:3px
  style RS fill:#fef3c7,stroke:#b45309
  style I fill:#fef3c7,stroke:#b45309
  style G fill:#fef3c7,stroke:#b45309
@@ -68,6 +78,20 @@ flowchart TD
 当前已落实：正文三部分规则组合；正文与评论钩子的交付结构，产品承接按篇启用并由product-amplify提供；对标逐句语气与文本结构映射；逐句四项 critique 和逐模块放行；图文互补与评论逆向提问。`hashtag-writer` 已拆分并固定10个；取消固定求赞。搜索关键词与标签的强制映射已确认，下游环节继续逐项细调。妈妈善食统一封面标准已确认，读取 pregnabite-writing 的飞书规范与标准图，不从新对标自动更换。
 
 ## 当前流程修正位置
+
+2026-10-16当前细调入口与产品交接：writing-router按topic-overlay协议恢复，通用模块维护思考、输入输出与放行，主题包逐节点绑定业务资料。product-amplify必须读适用产品事实、承接规律、图库和使用记录，交出实际匹配与产品原句；只有读取记录不能标完成。两种第一人称承接及各稿独立Brief沿用已确认规则。此轮为规则审计与部署，故事漫画仍试行，未以规则更新代替实稿验证。
+
+2026-10-16故事试跑纠偏：总图同步已确认的漫画例外，P01本身就是封面，不额外生成通用封面；短文本框、情景建立与人物孕期身份按story-builder/references/comic-storyboard.md执行。首页或样张完成不能代表Creative Brief、后续逐页文字或content-writer全流程完成。每步实际读取上游产物、补缺并通过原有检查后才能放行；第二轮研究未通过不得进入正式写作。已确认的首页局部形式不等于整组剩余文案获批。漫画路由仍为施工中，本次是用户明确授权的试跑，不改称ready；知识图文原路径保留。
+
+2026-10-15当前细调S4长文：story-builder/references/first-person-longform.md将已确认的当事人视角细化为经历／写法来源分开、连续段落组织、心理与对白的来源边界、已知结尾和双形式核对；body-writer接入该协议，区分独立完整长文与漫画发布配文。既有三轮复核和平台审批继续适用；未新增固定字数、段数或审批。此为规则落实，具体长文主对标与实稿质量待首个真实故事试跑验证。
+
+2026-10-15当前细调S4漫画：已将7组漫画对标提炼的6条候选规律、2条单条观察保存到企业库《图片规律》，并接入主题包、story-builder、image-copy-writer与image-generator。当前在story-builder/references/comic-storyboard.md细化“真实事件→对标关系适配→读者逐格获得的信息→画面／旁白／对白分工→双形式事实复核”，提供可直接填写的分镜映射格式。此为已授权规则的执行细化，候选机制尚无本账号效果验证；不新增固定画风、页格数或审批。漫画路由仍施工中，实际成图链路待真实素材试跑；第一人称长文的具体展开继续细调。
+
+2026-10-15双形式确认：妈妈善食故事型内容包生成漫画与第一人称长文，两版共用真实孕妈经历，分别记录稿件与制作验收状态。长文以原经历孕妈为叙述者，保留真实记录整理的身份说明。规则见pregnabite-writing、story-builder与content-planner内容包协议；漫画全链路仍待细调，不因双形式要求改为ready。个人自媒体号在独立对话细调，其账号资料与专属流程分别维护，共用技能继续复用。
+
+2026-10-15当前细调S2：用户同意继续细化真实经历的故事组织。story-builder将既有规则具体化为主线梳理、切入点选择、真实动作展开和已知结尾交接；知识建议与人物实际行为分开，素材只有片段时不补造后续。本轮未增加固定结构、数量或审批要求，实际叙事效果待真实素材试跑；S3读者所得及载体制作继续细调。
+
+2026-10-15已落实S1：用户确认继续妈妈善食孕期故事流程，从本账号《用户洞察》中的真实孕妈经历寻找小故事来源，回查原始记录后提取触发时刻、动作、阻碍及已有后续。通用取材与证据交接见story-builder，账号范围见pregnabite-writing；个人号实践入口不作为本次默认。此为流程规则更新，尚未执行具体故事候选筛选。
 
 2026-10-15：通用场景规则贯穿洞察、选题、Creative Brief与成稿，Pain明确触发时刻、当时动作、具体阻碍及逐项来源；真实记录、明确标注的示例、待确认设想分开。执行 research-core/references/scene-contract.md，writing-core维护写作提点，content-planner、hook-generator、body-writer、image-copy-writer与product-amplify在各自关口调用。story-builder已建立S1—S5故事方案流程，当前优化位置为P策划与S故事构建；这是规则实施，故事漫画和视频制作仍以routes.json的施工状态为准，实际成稿效果待验证。已有钩子与平台流程保留。
 
@@ -105,7 +129,7 @@ research-core 维护通用调研，pregnabite-research 维护主题范围与资�
 
 - 用户明确确认且已落实：三部分规则组合、对标信息关系、两套内容、Brief末尾文字审批、正文固定三部分、逐句模仿与 critique、固定10个标签、取消固定求赞。
 - 本轮新增模仿检查是对用户“标题与图片也需加强”的落实；不得声称已经通过实际写作质量测试。
-- 旧参数本轮已确认：三个不同成品标题分别模仿三个不同标题对标；小红书发布标题20汉字以内归平台包；正文对标篇幅约±100字只作参考，以适中讲清主题为准；第二轮总计至少3篇，其中本轮至少新增1篇对标并完成入库（现行定向采集不自动分析），writer复用不重跑。
+- 旧参数本轮已确认：三个不同成品标题分别模仿三个不同标题对标；小红书发布标题20汉字以内归平台包；正文对标篇幅约±100字只作参考，以适中讲清主题为准；第二轮总计至少3篇，其中本轮至少新增1篇对标并完成入库（现行按本篇形式采集并分析），writer复用不重跑。
 - 已确认：按现有位置和数量强制添加Emoji；采用的评论必须有评论自身的非零点赞或可核验回复，无互动不采用。
 - 已确认：搜索词与Hashtag逐项对应，来源及本篇回答位置可追溯；不再重复请求确认。本轮旧参数核对结束。
 - 实施细节（本轮未单独询问）：独立Skill名称、引用路径、句子ID/审查记录格式及同步方式。属于执行安排，不称为用户指定格式；不得据此要求用户填写更多表格。
@@ -118,7 +142,7 @@ research-core 维护通用调研，pregnabite-research 维护主题范围与资�
 | 已确认要求 | 唯一执行来源 |
 | --- | --- |
 | 语义路由、通用/平台/主题组合；写作与 critique 共同使用 | content-writer 模块路由、writing-core、xiaohongshu-writing、pregnabite-writing |
-| 指定题从topic-generator第二轮开始；定向研究至少3篇、至少1篇新增入库（小红书，定向采集不自动分析）；writer复用并定向补缺 | topic-generator；用户明确单篇豁免仅限该篇 |
+| 指定题从topic-generator第二轮开始；定向研究至少3篇、至少1篇新增入库（小红书，按本篇形式采集并分析）；writer复用并定向补缺 | topic-generator；用户明确单篇豁免仅限该篇 |
 | 对标分析原位保存、准确需求回写、形式分类、知识核验及正文互补 | pattern-extractor/references/benchmark-analysis.md、audience-report |
 | 每篇写前实际读取已存分析；继承逐页功能、信息关系和数量，再查证选材 | image-copy-writer 前置门槛及信息需求规则 |
 | A/B 独立对标与首张内容页候选；选定后仅展开所选整组 | production-review.md 两套内容方案验收 |

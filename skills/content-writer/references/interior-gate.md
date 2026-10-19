@@ -4,6 +4,8 @@
 
 ## 证据与字段
 
+漫画首页按 [首页即封面的情景建立规则](../../story-builder/references/comic-storyboard.md) 处理。现有脚本的samples路径固定P02，不能用于宣称漫画P01检查通过，也不能把P01伪登记成P02。用户明确批准漫画首页重排或定向修订时，沿用本页“明确批准的结构变更”路径，记录来源、页码变更、全文批准范围和人工情景检查；其余已选内页仍按适用脚本执行。不为补脚本字段重新生成通用封面。
+
 - `mode`：`samples`仅生成两套已批P02比较样张；`selected`生成或修改已选整组内页。
 - `schemes`：每套包含`id`、`note_id`、`analysis_ref`、`source_manifest_ref`、`text_version`、`text_approval_ref`、`expected_pages`、`planned_pages`。
 - 两份页面清单均用有序数组，每页包含`output_page`、`note_id`、`source_page`、`task`、`units`（各区独立条目数）、`relations`（信息关系）。expected从实际原图和已存分析继承，执行首页去重；planned从本篇实际Image Brief提取。samples时expected保留完整原图结构，planned仅需P02；selected时只检查所选方案，planned须覆盖所选完整组；未选方案可仅保留样张记录，不作为出图前置。两者独立回读核对，禁止复制计划冒充原图基准。通用品牌封面不占内页清单。
