@@ -8,7 +8,7 @@
 
 一句话识别账号/主题、指定题与否、内容目标及断点。读取workspace-initializer确认的多平台选择，不默认三平台；用户明确限定本轮范围时遵从。
 
-漫画顺序优先：取材与题意确定 → topic-generator按漫画类型与本题共同匹配至少3篇对标、自行拆解，content-collector定向采集 → story-builder＋product-amplify联合完成含产品动作与帮助的完整故事首稿 → 漫画对标适配 → content-planner与hook-generator完成改编Brief → 分镜文案 → 图片。具体调用和断点见[漫画完整流程](../../comic-writer/references/workflow.md)。产品开关先读用户已确认任务输入，再写入后续独立Brief，不要求先完成Brief才能写故事。
+漫画顺序优先：取材与题意确定 → topic-generator按漫画类型与本题共同匹配至少3篇对标、自行拆解，content-collector定向采集 → story-builder＋product-amplify联合完成含产品动作与帮助的完整故事首稿 → 对照漫画原帖检查故事 → content-planner与hook-generator完成改编Brief → 分镜文案 → 图片。具体调用和断点见[漫画完整流程](../../comic-writer/references/workflow.md)。产品开关先读用户已确认任务输入，再写入后续独立Brief，不要求先完成Brief才能写故事。
 
 其他分支完整新写作：topic-radar（可选，按下方开关）→ audience-report → topic-generator（未指定题从第一轮开始；指定题从第二轮开始）→ content-planner构建内容包与Creative Brief（初期即调用hook-generator，共同确定具体钩子及内容展开，写前复查）→ story-builder → 各平台正式写作。未指定题的第一轮候选由用户选择，再执行第二轮；已指定题不重复要求选题。
 
